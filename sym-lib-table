@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "JC-ESP32P4-M3_Footprints") (type "") (uri "C:/Users/schra/Developer/JC-ESP32P4-M3-DEV/5-Schematic/PCB package library") (options "") (descr "") (disabled) (hidden))
+	(lib (name "JC-ESP32P4-M3") (type "Altium") (uri "C:/Users/schra/Developer/JC-ESP32P4-M3-DEV/5-Schematic/PCB package library/JC-ESP32P4-M3.SCHLIB") (options "") (descr ""))
+)
