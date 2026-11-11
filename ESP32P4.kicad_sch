@@ -14994,6 +14994,116 @@
 		)
 		(uuid "4c29715b-27f2-44b9-8009-7319f972e261")
 	)
+	(label "+3V3"
+		(at 118.11000000000001 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e155b8f1-ddea-4de3-a688-aabda47fedca")
+	)
+	(label "+3V3"
+		(at 115.57000000000001 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93ed37bc-7368-4eea-8c42-f45ba605f2b9")
+	)
+	(label "GND"
+		(at 87.63000000000001 68.58000000000001 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77fcae88-d0bb-48b2-9cbb-7d7fa4a52f13")
+	)
+	(label "GND"
+		(at 87.63000000000001 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2da9ef5f-22d3-4b38-87c1-fc401d962bbd")
+	)
+	(label "GND"
+		(at 87.63000000000001 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e5c68ca-2488-40e0-8bda-daa130e01fa5")
+	)
+	(label "GND"
+		(at 120.65 139.7 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aed6285a-0061-4dbd-894d-be7166c7ba1b")
+	)
+	(label "GND"
+		(at 138.43 139.7 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "835f6ce2-d13f-4f5e-8bb9-1f9848aa7720")
+	)
+	(label "GND"
+		(at 181.61 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72c0ad4c-ecd1-452c-a8e9-e616e81789b4")
+	)
+	(label "GND"
+		(at 181.61 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a094f575-0db1-4f21-b17b-e66f7d8302bb")
+	)
+	(label "GND"
+		(at 113.03 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8749045f-1118-4650-8d62-d65b50dfee64")
+	)
+	(label "GND"
+		(at 110.49000000000001 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3595ba4-b2d2-43ba-a235-9d722adbc229")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
