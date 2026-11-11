@@ -9755,6 +9755,196 @@
 		)
 		(uuid "58d4d817-87d5-4cf0-96ae-a9baf3ee41ed")
 	)
+	(label "SPI_MISO"
+		(at 255.27 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62300539-bf26-4c3f-8c1d-79e8a9680dc3")
+	)
+	(label "SPI_CS"
+		(at 255.27 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00fb2e4c-9e79-4ea6-92d8-33b74430d066")
+	)
+	(label "GND"
+		(at 255.27 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edb71f0e-d758-4237-8ffe-ec47ddb2b8ba")
+	)
+	(label "SPI_SCLK"
+		(at 255.27 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c64bbb2a-a9d0-47f7-93a9-f429852e1f0e")
+	)
+	(label "SPI_MOSI"
+		(at 255.27 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b3545e9-90ed-4bbe-b4e3-2fdeb5658c63")
+	)
+	(label "OLED_DC"
+		(at 255.27 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f024f23-5235-4018-9dbc-d3a57e9be792")
+	)
+	(label "OLED_RES"
+		(at 255.27 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90856f9d-e17e-4696-ad01-bf1d3266f54a")
+	)
+	(label "GND"
+		(at 255.27 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1a78887-b89b-421b-9e25-b4c37a257e69")
+	)
+	(label "SPI_HS"
+		(at 255.27 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bf44258-0633-48d3-b0e8-88ca7b07ea54")
+	)
+	(label "PICO_RESET"
+		(at 255.27 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8f73a4e-389f-4e10-9c1c-df117341467f")
+	)
+	(label "BTN4"
+		(at 255.27 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2559589-0cdf-4c71-8cba-757f163b392c")
+	)
+	(label "GND"
+		(at 255.27 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44f9406f-c76b-427e-b2f8-bbc0f24a1edd")
+	)
+	(label "+5V"
+		(at 255.27 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3cd1050-006d-47ed-bc16-4a49b428be18")
+	)
+	(label "SPI_CS"
+		(at 87.63000000000001 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3ddeacd-a73c-4ee5-8277-ecb823c7430d")
+	)
+	(label "SPI_HS"
+		(at 87.63000000000001 78.74000000000001 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "717851df-8c63-4841-8a0d-6082c8296322")
+	)
+	(label "SPI_SCLK"
+		(at 110.49000000000001 139.7 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a469a02-f5c3-4859-80a5-09412773db8c")
+	)
+	(label "SPI_MOSI"
+		(at 181.61 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57e6c99f-df3b-41b0-b222-f7fa66b92b27")
+	)
+	(label "SPI_MISO"
+		(at 181.61 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73520bcb-80c6-4894-a0e0-1ba65efe5c96")
+	)
+	(label "PICO_RESET"
+		(at 148.59 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b680eb-edd3-454f-ba14-80f72e1af9de")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
