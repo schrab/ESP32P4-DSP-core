@@ -11244,26 +11244,6 @@
 		(uuid "2c93e448-11ee-4b4f-bbb2-0aeed35d4523")
 	)
 	(label "I2C_SDA"
-		(at 209.55 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "690398c4-a88e-42b9-a668-0404a8e71616")
-	)
-	(label "I2C_SCL"
-		(at 222.25 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1dbaa7ed-a600-467d-ae74-01cb8e029a5d")
-	)
-	(label "I2C_SDA"
 		(at 240.03 31.75 90)
 		(effects
 			(font
@@ -15451,6 +15431,26 @@
 			(justify right bottom)
 		)
 		(uuid "a8f0370e-60c8-4b8e-b33b-c7568d66b389")
+	)
+	(label "I2C_SCL"
+		(at 209.54999999999998 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc4ac1cf-631a-47a9-b4a9-45fd85eca889")
+	)
+	(label "I2C_SDA"
+		(at 222.25 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c20a4b1d-0956-4dd0-bd7d-9b0cebf4e283")
 	)
 	(sheet_instances
 		(path "/"
