@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "JC-ESP32P4-M3_Footprints") (type "") (uri "C:/Users/schra/Developer/JC-ESP32P4-M3-DEV/5-Schematic/PCB package library") (options "") (descr "") (disabled) (hidden))
 	(lib (name "JC-ESP32P4-M3") (type "Altium") (uri "C:/Users/schra/Developer/JC-ESP32P4-M3-DEV/5-Schematic/PCB package library/JC-ESP32P4-M3.SCHLIB") (options "") (descr ""))
+  (lib (name "ESP32P4-CARRIER")(type "KiCad")(uri "C:/Users/schra/Developer/JC-ESP32P4-M3-DEV/ESP32P4/ESP32P4-CARRIER.kicad_sym")(options "")(descr "Carrier board custom symbols (IP5306)"))
 )
