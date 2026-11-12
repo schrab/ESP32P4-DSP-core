@@ -1,0 +1,1286 @@
+** Drc report for ESP32P4.kicad_pcb **
+** Created on 2026-11-12T21:16:45 **
+** Report includes: Errors, Warnings **
+
+** Found 287 DRC violations **
+[shorting_items]: Items shorting two nets (nets BTN1 and SPI_MISO)
+    Local override; error
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(94.5000 mm, 54.0000 mm): PTH pad 1 [BTN3] of SW6
+    @(93.0500 mm, 53.9400 mm): PTH pad 12 [<no net>] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+[shorting_items]: Items shorting two nets (nets BTN1 and SPI_MISO)
+    Local override; error
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(94.5000 mm, 54.0000 mm): PTH pad 1 [BTN3] of SW6
+    @(93.0500 mm, 53.9400 mm): PTH pad 12 [<no net>] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(94.5000 mm, 72.5000 mm): PTH pad 2 [GND] of SW7
+    @(93.0500 mm, 71.7200 mm): PTH pad 19 [+5V] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[shorting_items]: Items shorting two nets (nets BTN2 and ENC2_SW)
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(94.5000 mm, 58.5000 mm): PTH pad 2 [GND] of SW6
+    @(93.0500 mm, 59.0200 mm): PTH pad 14 [<no net>] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[shorting_items]: Items shorting two nets (nets GND and +5V)
+    Local override; error
+    @(94.5000 mm, 72.5000 mm): PTH pad 2 [GND] of SW7
+    @(93.0500 mm, 71.7200 mm): PTH pad 19 [+5V] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(94.5000 mm, 58.5000 mm): PTH pad 2 [GND] of SW6
+    @(93.0500 mm, 59.0200 mm): PTH pad 14 [<no net>] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0974 mm)
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0579 mm)
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(93.0500 mm, 41.2400 mm): PTH pad 7 [OLED_RES] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[shorting_items]: Items shorting two nets (nets BTN2 and ENC2_SW)
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0974 mm)
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+[shorting_items]: Items shorting two nets (nets ENC2_SW and OLED_DC)
+    Local override; error
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1659 mm)
+    Local override; error
+    @(47.9300 mm, 68.7100 mm): PTH pad SH [GND] of J5
+    @(47.1500 mm, 66.3000 mm): Pad 3 [+5V] of U2 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0579 mm)
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(93.0500 mm, 41.2400 mm): PTH pad 7 [OLED_RES] of J3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(6.5100 mm, 55.0000 mm): Pad 25 [GND] of U1 on B.Cu
+    @(7.0000 mm, 54.5000 mm): NPTH pad of J10
+[shorting_items]: Items shorting two nets (nets ENC2_SW and OLED_DC)
+    Local override; error
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+[shorting_items]: Items shorting two nets (nets SPI_SCLK and GND)
+    Local override; error
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+    @(94.5000 mm, 34.0000 mm): PTH pad S2 [GND] of ENC2
+[shorting_items]: Items shorting two nets (nets SPI_SCLK and GND)
+    Local override; error
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+    @(94.5000 mm, 34.0000 mm): PTH pad S2 [GND] of ENC2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1650 mm)
+    Local override; error
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+    @(5.2400 mm, 55.0000 mm): Pad 26 [unconnected-(U1-DSI_DATAP1-Pad26)] of U1 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(17.2400 mm, 12.8750 mm): Pad SH [GND] of J6 on B.Cu
+    @(16.6800 mm, 14.5000 mm): PTH pad MH1 [<no net>] of J8
+[shorting_items]: Items shorting two nets (nets MIDI_IN_RING and unconnected-(U1-DSI_DATAN1-Pad27))
+    Local override; error
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+    @(3.9700 mm, 55.0000 mm): Pad 27 [unconnected-(U1-DSI_DATAN1-Pad27)] of U1 on B.Cu
+[shorting_items]: Items shorting two nets (nets MIDI_IN_RING and unconnected-(U1-DSI_CLKN-Pad28))
+    Local override; error
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+    @(2.7000 mm, 55.0000 mm): Pad 28 [unconnected-(U1-DSI_CLKN-Pad28)] of U1 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0950 mm)
+    Local override; error
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+    @(1.4300 mm, 55.0000 mm): Pad 29 [unconnected-(U1-DSI_CLKP-Pad29)] of U1 on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and SPI_SCLK)
+    Local override; error
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+    @(11.5900 mm, 55.0000 mm): Pad 21 [SPI_SCLK] of U1 on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and unconnected-(U1-GPIO22-Pad23))
+    Local override; error
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+    @(9.0500 mm, 55.0000 mm): Pad 23 [unconnected-(U1-GPIO22-Pad23)] of U1 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1380 mm)
+    Local override; error
+    @(93.0500 mm, 66.6400 mm): PTH pad 17 [<no net>] of J3
+    @(94.5000 mm, 68.0000 mm): PTH pad 1 [BTN4] of SW7
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1380 mm)
+    Local override; error
+    @(93.0500 mm, 66.6400 mm): PTH pad 17 [<no net>] of J3
+    @(94.5000 mm, 68.0000 mm): PTH pad 1 [BTN4] of SW7
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0195 mm)
+    Local override; error
+    @(93.0500 mm, 69.1800 mm): PTH pad 18 [GND] of J3
+    @(94.5000 mm, 68.0000 mm): PTH pad 1 [BTN4] of SW7
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0195 mm)
+    Local override; error
+    @(93.0500 mm, 69.1800 mm): PTH pad 18 [GND] of J3
+    @(94.5000 mm, 68.0000 mm): PTH pad 1 [BTN4] of SW7
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-GPIO21-Pad22) and GND)
+    Local override; error
+    @(10.3200 mm, 55.0000 mm): Pad 22 [unconnected-(U1-GPIO21-Pad22)] of U1 on B.Cu
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(7.7800 mm, 55.0000 mm): Pad 24 [unconnected-(U1-GPIO23-Pad24)] of U1 on B.Cu
+    @(7.0000 mm, 54.5000 mm): NPTH pad of J10
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-GPIO52-Pad72) and GND)
+    Local override; error
+    @(1.4000 mm, 28.0000 mm): Pad 72 [unconnected-(U1-GPIO52-Pad72)] of U1 on B.Cu
+    @(2.0500 mm, 27.0000 mm): Pad 2 [GND] of C11 on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-GPIO53-Pad73) and GND)
+    Local override; error
+    @(2.6700 mm, 28.0000 mm): Pad 73 [unconnected-(U1-GPIO53-Pad73)] of U1 on B.Cu
+    @(2.0500 mm, 27.0000 mm): Pad 2 [GND] of C11 on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-GPIO54-Pad74) and BATP)
+    Local override; error
+    @(3.9400 mm, 28.0000 mm): Pad 74 [unconnected-(U1-GPIO54-Pad74)] of U1 on B.Cu
+    @(3.9500 mm, 27.0000 mm): Pad 1 [BATP] of C11 on B.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(88.0000 mm, 10.0000 mm): Footprint SW1
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 10.0000 mm): Footprint SW1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 28.5400 mm): PTH pad 2 [SPI_CS] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 31.0800 mm): PTH pad 3 [GND] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 36.1600 mm): PTH pad 5 [SPI_MOSI] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 41.2400 mm): PTH pad 7 [OLED_RES] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 43.7800 mm): PTH pad 8 [GND] of J3
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 34.0000 mm): PTH pad S2 [GND] of ENC2
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+    @(80.0000 mm, 34.0000 mm): Footprint ENC2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 28.5400 mm): PTH pad 2 [SPI_CS] of J3
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+    @(80.0000 mm, 18.0000 mm): Footprint ENC1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 66.6400 mm): PTH pad 17 [<no net>] of J3
+    @(88.0000 mm, 68.0000 mm): Footprint SW7
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 69.1800 mm): PTH pad 18 [GND] of J3
+    @(88.0000 mm, 68.0000 mm): Footprint SW7
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 71.7200 mm): PTH pad 19 [+5V] of J3
+    @(88.0000 mm, 68.0000 mm): Footprint SW7
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 74.2600 mm): PTH pad 20 [<no net>] of J3
+    @(88.0000 mm, 68.0000 mm): Footprint SW7
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 68.0000 mm): PTH pad 1 [BTN4] of SW7
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 72.5000 mm): PTH pad 2 [GND] of SW7
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(16.6800 mm, 14.5000 mm): PTH pad MH1 [<no net>] of J8
+    @(15.0000 mm, 7.5000 mm): Footprint J6
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 41.2400 mm): PTH pad 7 [OLED_RES] of J3
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 43.7800 mm): PTH pad 8 [GND] of J3
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 46.3200 mm): PTH pad 9 [SPI_HS] of J3
+    @(88.0000 mm, 40.0000 mm): Footprint SW5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 54.0000 mm): PTH pad 1 [BTN3] of SW6
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 58.5000 mm): PTH pad 2 [GND] of SW6
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 53.9400 mm): PTH pad 12 [<no net>] of J3
+    @(88.0000 mm, 54.0000 mm): Footprint SW6
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 56.4800 mm): PTH pad 13 [<no net>] of J3
+    @(88.0000 mm, 54.0000 mm): Footprint SW6
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 59.0200 mm): PTH pad 14 [<no net>] of J3
+    @(88.0000 mm, 54.0000 mm): Footprint SW6
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(94.5000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+    @(93.0500 mm, 26.0000 mm): Footprint J3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 28.5400 mm): PTH pad 2 [SPI_CS] of J3
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(93.0500 mm, 31.0800 mm): PTH pad 3 [GND] of J3
+    @(88.0000 mm, 26.0000 mm): Footprint SW4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(44.0000 mm, 64.0000 mm): Footprint U2
+    @(39.0000 mm, 69.5000 mm): Footprint D1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(44.0000 mm, 64.0000 mm): Footprint U2
+    @(58.0000 mm, 66.0000 mm): Footprint J5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(47.9300 mm, 68.7100 mm): PTH pad SH [GND] of J5
+    @(44.0000 mm, 64.0000 mm): Footprint U2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(45.0000 mm, 74.0000 mm): Footprint C8
+    @(39.0000 mm, 69.5000 mm): Footprint D1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(45.0000 mm, 74.0000 mm): Footprint C8
+    @(58.0000 mm, 66.0000 mm): Footprint J5
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(-2.3800 mm, 63.2183 mm): Track [GND] on B.Cu, length 8.3156 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(-11.2700 mm, 53.8785 mm): Track [USB_DM] on F.Cu, length 19.2320 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(1.4385 mm, 52.3812 mm): Track [USBH_DM] on F.Cu, length 14.3189 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(1.6421 mm, 51.5778 mm): Track [USBH_DP] on F.Cu, length 14.2376 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(0.7918 mm, 50.9951 mm): Track [BOOT] on F.Cu, length 17.5866 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(26.1750 mm, 22.9944 mm): Track [SD_PWR_LDO] on F.Cu, length 28.2196 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(-9.4079 mm, 29.1082 mm): Track [SD_D0] on F.Cu, length 16.9684 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(13.5987 mm, 12.4498 mm): Track [SD_D1] on F.Cu, length 27.5987 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(18.1050 mm, 1.1983 mm): Track [SD_D2] on B.Cu, length 2.3530 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(8.9510 mm, -0.4655 mm): Track [SD_D2] on B.Cu, length 30.4353 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3655 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(16.4412 mm, -0.4655 mm): Track [SD_D2] on B.Cu, length 7.4902 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(9.1980 mm, -0.0594 mm): Track [SD_D3] on B.Cu, length 28.9885 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(15.7473 mm, -0.0594 mm): Track [SD_D3] on B.Cu, length 6.5493 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(17.0050 mm, 1.1983 mm): Track [SD_D3] on B.Cu, length 1.7787 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4359 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(9.5599 mm, 0.5359 mm): Track [SD_CMD] on B.Cu, length 0.3892 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2423 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(15.9050 mm, 1.1983 mm): Track [SD_CMD] on B.Cu, length 1.2106 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(7.2916 mm, 3.2640 mm): Track [SD_CMD] on B.Cu, length 24.4964 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2423 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(9.7535 mm, 0.3423 mm): Track [SD_CMD] on B.Cu, length 0.2738 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2423 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(15.0490 mm, 0.3423 mm): Track [SD_CMD] on B.Cu, length 5.2955 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4359 mm)
+    Rule: board setup constraints edge; error
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(9.1707 mm, 0.5359 mm): Track [SD_CMD] on B.Cu, length 2.6574 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(-8.7600 mm, 25.5999 mm): Track [SD_CLK] on B.Cu, length 31.7703 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(0.1538 mm, 48.0364 mm): Via [PICO_RESET] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(-7.4900 mm, 40.3926 mm): Track [PICO_RESET] on B.Cu, length 10.8100 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(0.1600 mm, 55.0000 mm): Pad 30 [unconnected-(U1-DSI_DATAP0-Pad30)] of U1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(0.1300 mm, 28.0000 mm): Pad 71 [unconnected-(U1-GPIO51-Pad71)] of U1 on B.Cu
+[track_width]: Track width (board setup constraints min width 0.1500 mm; actual 0.1200 mm)
+    Rule: netclass 'Default'; error
+    @(30.8984 mm, 69.6881 mm): Track [USB_DM] on B.Cu, length 0.0989 mm
+[track_width]: Track width (board setup constraints min width 0.1500 mm; actual 0.1200 mm)
+    Rule: netclass 'Default'; error
+    @(31.0500 mm, 69.5365 mm): Track [USB_DM] on B.Cu, length 0.2144 mm
+[track_width]: Track width (board setup constraints min width 0.1500 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(44.9467 mm, 60.5006 mm): Track [NRST] on B.Cu, length 0.0668 mm
+[track_width]: Track width (board setup constraints min width 0.1500 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(32.0387 mm, 69.9719 mm): Track [CC1] on B.Cu, length 0.1782 mm
+[track_width]: Track width (board setup constraints min width 0.1500 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(32.2169 mm, 69.9719 mm): Track [CC1] on B.Cu, length 0.0604 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(17.2400 mm, 12.8750 mm): Pad SH [GND] of J6 on B.Cu
+    @(16.6800 mm, 14.5000 mm): PTH pad MH1 [<no net>] of J8
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(11.5900 mm, 55.0000 mm): Pad 21 [SPI_SCLK] of U1 on B.Cu
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(10.3200 mm, 55.0000 mm): Pad 22 [unconnected-(U1-GPIO21-Pad22)] of U1 on B.Cu
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(9.0500 mm, 55.0000 mm): Pad 23 [unconnected-(U1-GPIO22-Pad23)] of U1 on B.Cu
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+    @(94.5000 mm, 34.0000 mm): PTH pad S2 [GND] of ENC2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+    @(94.5000 mm, 34.0000 mm): PTH pad S2 [GND] of ENC2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(3.9700 mm, 55.0000 mm): Pad 27 [unconnected-(U1-DSI_DATAN1-Pad27)] of U1 on B.Cu
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(2.7000 mm, 55.0000 mm): Pad 28 [unconnected-(U1-DSI_CLKN-Pad28)] of U1 on B.Cu
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(3.9500 mm, 27.0000 mm): Pad 1 [BATP] of C11 on B.Cu
+    @(3.9400 mm, 28.0000 mm): Pad 74 [unconnected-(U1-GPIO54-Pad74)] of U1 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 53.9400 mm): PTH pad 12 [<no net>] of J3
+    @(94.5000 mm, 54.0000 mm): PTH pad 1 [BTN3] of SW6
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(2.0500 mm, 27.0000 mm): Pad 2 [GND] of C11 on B.Cu
+    @(1.4000 mm, 28.0000 mm): Pad 72 [unconnected-(U1-GPIO52-Pad72)] of U1 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 53.9400 mm): PTH pad 12 [<no net>] of J3
+    @(94.5000 mm, 54.0000 mm): PTH pad 1 [BTN3] of SW6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(2.0500 mm, 27.0000 mm): Pad 2 [GND] of C11 on B.Cu
+    @(2.6700 mm, 28.0000 mm): Pad 73 [unconnected-(U1-GPIO53-Pad73)] of U1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 59.0200 mm): PTH pad 14 [<no net>] of J3
+    @(94.5000 mm, 58.5000 mm): PTH pad 2 [GND] of SW6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 59.0200 mm): PTH pad 14 [<no net>] of J3
+    @(94.5000 mm, 58.5000 mm): PTH pad 2 [GND] of SW6
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 71.7200 mm): PTH pad 19 [+5V] of J3
+    @(94.5000 mm, 72.5000 mm): PTH pad 2 [GND] of SW7
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(93.0500 mm, 71.7200 mm): PTH pad 19 [+5V] of J3
+    @(94.5000 mm, 72.5000 mm): PTH pad 2 [GND] of SW7
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(7.0000 mm, 54.5000 mm): NPTH pad of J10
+    @(7.7800 mm, 55.0000 mm): Pad 24 [unconnected-(U1-GPIO23-Pad24)] of U1 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(7.0000 mm, 54.5000 mm): NPTH pad of J10
+    @(6.5100 mm, 55.0000 mm): Pad 25 [GND] of U1 on B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.8976 mm, 30.5803 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(10.7000 mm, 51.7640 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(2.0500 mm, 25.7398 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.9827 mm, 11.6826 mm): Via [GND] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(-11.7677 mm, 50.3748 mm): Track [GND] on B.Cu, length 0.2079 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(51.7427 mm, 34.6999 mm): Via [I2C_SDA] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(14.6534 mm, 41.1864 mm): Via [I2C_SDA] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(56.8250 mm, 35.9795 mm): Via [I2C_SCL] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(12.4770 mm, 55.0000 mm): Via [SPI_SCLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-11.6882 mm, 53.1459 mm): Via [USB_DP] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-8.0992 mm, 33.6037 mm): Via [SPI_MOSI] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-12.8817 mm, 38.1557 mm): Via [SPI_MISO] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-10.9921 mm, 37.9412 mm): Via [GPIO36] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(53.8250 mm, 55.0192 mm): Via [GPIO36] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.3468 mm, 0.9761 mm): Via [SD_D0] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(10.4550 mm, 0.9761 mm): Via [SD_D1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-12.5700 mm, 26.8754 mm): Via [SD_D2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(16.8969 mm, 3.1259 mm): Via [SD_D3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-11.3000 mm, 26.8914 mm): Via [SD_D3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-10.0300 mm, 26.8748 mm): Via [SD_CMD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(13.7050 mm, 3.1349 mm): Via [SD_CLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-8.7600 mm, 26.8768 mm): Via [SD_CLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(0.1538 mm, 48.0364 mm): Via [PICO_RESET] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-6.2200 mm, 29.1192 mm): Via [I2S_MCLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(-4.9500 mm, 29.1086 mm): Via [I2S_BCLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(3.3000 mm, 34.7820 mm): Via [MIDI_RING] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.3486 mm, 71.3814 mm): Via [KEY_BTN] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(39.0379 mm, 59.9121 mm): Via [+5V] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(4.8568 mm, 26.0932 mm): Via [BATP] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(16.3127 mm, 68.2666 mm): Via [BATP] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(21.8519 mm, 77.0981 mm): Via [USB5V] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(31.9500 mm, 5.2318 mm): Via [USB5V] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(40.7970 mm, 22.0342 mm): Via [MIDI_IN_RING] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(48.6500 mm, 55.3840 mm): Via [MIDI_IN_RING] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(40.7912 mm, 23.3042 mm): Via [MIDI_IN_TIP] on F.Cu - B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(14.5800 mm, 16.6000 mm): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(18.6800 mm, 9.1000 mm): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(48.1800 mm, -47.9000 mm): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(57.5800 mm, -55.4000 mm): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(0.0000 mm, 75.0000 mm): Segment on Edge.Cuts
+    @(-0.4207 mm, 26.1186 mm): Reference field of U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(15.0000 mm, 0.3200 mm): Reference field of J6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.2500 mm, 38.0000 mm): Reference field of SW5
+    @(87.5000 mm, 36.5000 mm): Circle of ENC2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(93.5000 mm, 39.0000 mm): Segment of SW5 on F.Silkscreen
+    @(87.5000 mm, 36.5000 mm): Circle of ENC2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(89.0000 mm, 15.5000 mm): Segment of SW1 on F.Silkscreen
+    @(93.6000 mm, 14.6000 mm): Segment of ENC1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(89.0000 mm, 31.5000 mm): Segment of SW4 on F.Silkscreen
+    @(93.6000 mm, 30.6000 mm): Segment of ENC2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(93.5000 mm, 25.0000 mm): Segment of SW4 on F.Silkscreen
+    @(93.6000 mm, 24.0000 mm): Segment of ENC1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.5000 mm, 36.5000 mm): Circle of ENC2 on F.Silkscreen
+    @(88.0000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.7500 mm, 27.5000 mm): Segment of SW4 on F.Silkscreen
+    @(87.5000 mm, 26.1000 mm): PTH pad MP [<no net>] of ENC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.5000 mm, 14.6000 mm): Segment of ENC1 on F.Silkscreen
+    @(94.5000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.0000 mm, 15.5000 mm): Segment of SW1 on F.Silkscreen
+    @(87.5000 mm, 14.9000 mm): PTH pad MP [<no net>] of ENC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 14.6000 mm): Segment of ENC1 on F.Silkscreen
+    @(94.5000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.0000 mm, 59.5000 mm): Segment of SW6 on F.Silkscreen
+    @(93.0500 mm, 59.0200 mm): PTH pad 14 [<no net>] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.0000 mm, 73.5000 mm): Segment of SW7 on F.Silkscreen
+    @(93.0500 mm, 74.2600 mm): PTH pad 20 [<no net>] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.5000 mm, 67.0000 mm): Segment of SW7 on F.Silkscreen
+    @(93.0500 mm, 66.6400 mm): PTH pad 17 [<no net>] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(91.2500 mm, 66.0000 mm): Reference field of SW7
+    @(93.0500 mm, 66.6400 mm): PTH pad 17 [<no net>] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(91.2500 mm, 38.0000 mm): Reference field of SW5
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.5000 mm, 39.0000 mm): Segment of SW5 on F.Silkscreen
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.5000 mm, 39.0000 mm): Segment of SW5 on F.Silkscreen
+    @(93.0500 mm, 38.7000 mm): PTH pad 6 [OLED_DC] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 35.2000 mm): Segment of ENC2 on F.Silkscreen
+    @(93.0500 mm, 36.1600 mm): PTH pad 5 [SPI_MOSI] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 40.0000 mm): Segment of ENC2 on F.Silkscreen
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 40.0000 mm): Segment of ENC2 on F.Silkscreen
+    @(93.0500 mm, 41.2400 mm): PTH pad 7 [OLED_RES] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.7500 mm, 41.5000 mm): Segment of SW5 on F.Silkscreen
+    @(87.5000 mm, 42.1000 mm): PTH pad MP [<no net>] of ENC2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.0000 mm, 45.5000 mm): Segment of SW5 on F.Silkscreen
+    @(93.0500 mm, 46.3200 mm): PTH pad 9 [SPI_HS] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(91.2500 mm, 52.0000 mm): Reference field of SW6
+    @(93.0500 mm, 51.4000 mm): PTH pad 11 [BTN4] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.5000 mm, 30.6000 mm): Segment of ENC2 on F.Silkscreen
+    @(94.5000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.5000 mm, 30.6000 mm): Segment of ENC2 on F.Silkscreen
+    @(93.0500 mm, 31.0800 mm): PTH pad 3 [GND] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 30.6000 mm): Segment of ENC2 on F.Silkscreen
+    @(94.5000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 30.6000 mm): Segment of ENC2 on F.Silkscreen
+    @(93.0500 mm, 31.0800 mm): PTH pad 3 [GND] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 30.6000 mm): Segment of ENC2 on F.Silkscreen
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 26.4000 mm): Segment of ENC1 on F.Silkscreen
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 26.4000 mm): Segment of ENC1 on F.Silkscreen
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.0000 mm, 31.5000 mm): Segment of SW4 on F.Silkscreen
+    @(87.5000 mm, 30.9000 mm): PTH pad MP [<no net>] of ENC2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.0000 mm, 31.5000 mm): Segment of SW4 on F.Silkscreen
+    @(93.0500 mm, 31.0800 mm): PTH pad 3 [GND] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 24.0000 mm): Segment of ENC1 on F.Silkscreen
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.6000 mm, 24.0000 mm): Segment of ENC1 on F.Silkscreen
+    @(94.5000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(10.0000 mm, 22.5700 mm): Reference field of R16
+    @(10.2373 mm, 22.5225 mm): Segment of R18 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(3.9000 mm, 46.6000 mm): Segment of J9 on B.Silkscreen
+    @(7.0000 mm, 47.1000 mm): Reference field of J10
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(49.3600 mm, 55.5000 mm): Segment of D3 on B.Silkscreen
+    @(49.0000 mm, 57.3200 mm): Reference field of C6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(49.3600 mm, 57.5000 mm): Segment of D3 on B.Silkscreen
+    @(49.0000 mm, 57.3200 mm): Reference field of C6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(49.3600 mm, 57.5000 mm): Segment of D3 on B.Silkscreen
+    @(45.0000 mm, 58.0700 mm): Reference field of R4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.2373 mm, 58.9775 mm): Segment of R4 on B.Silkscreen
+    @(44.0000 mm, 59.6000 mm): Reference field of U2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.2373 mm, 60.0225 mm): Segment of R4 on B.Silkscreen
+    @(44.0000 mm, 59.6000 mm): Reference field of U2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.6500 mm, 73.0100 mm): Segment of D1 on B.Silkscreen
+    @(38.0000 mm, 73.5700 mm): Reference field of C7
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.3500 mm, 73.0100 mm): Segment of D1 on B.Silkscreen
+    @(38.0000 mm, 73.5700 mm): Reference field of C7
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(48.4100 mm, 76.3456 mm): Segment of C8 on B.Silkscreen
+    @(47.8400 mm, 70.4700 mm): Segment of J5 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(48.4100 mm, 71.6544 mm): Segment of C8 on B.Silkscreen
+    @(47.8400 mm, 70.4700 mm): Segment of J5 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(19.0000 mm, 72.8200 mm): Reference field of C3
+    @(17.4000 mm, 73.1000 mm): Segment of L2 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(3.2613 mm, 27.7350 mm): Segment of C11 on B.Silkscreen
+    @(2.6700 mm, 28.0000 mm): Pad 73 [unconnected-(U1-GPIO53-Pad73)] of U1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.0000 mm, 28.1000 mm): Reference field of J9
+    @(7.7500 mm, 28.0000 mm): Pad 77 [+3V3] of U1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.0000 mm, 28.1000 mm): Reference field of J9
+    @(6.4800 mm, 28.0000 mm): Pad 76 [unconnected-(U1-GPIO0-Pad76)] of U1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.0000 mm, 22.5700 mm): Reference field of R16
+    @(10.8250 mm, 22.0000 mm): Pad 1 [MIDI_RX] of R18 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.0000 mm, 22.5700 mm): Reference field of R16
+    @(9.1750 mm, 22.0000 mm): Pad 2 [+3V3] of R18 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.1000 mm, 54.7000 mm): Segment of J10 on B.Silkscreen
+    @(11.5900 mm, 55.0000 mm): Pad 21 [SPI_SCLK] of U1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.1000 mm, 54.7000 mm): Segment of J10 on B.Silkscreen
+    @(10.3200 mm, 55.0000 mm): Pad 22 [unconnected-(U1-GPIO21-Pad22)] of U1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(10.1000 mm, 61.2000 mm): Segment of J10 on B.Silkscreen
+    @(10.3200 mm, 55.0000 mm): Pad 22 [unconnected-(U1-GPIO21-Pad22)] of U1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(49.0000 mm, 57.3200 mm): Reference field of C6
+    @(48.6500 mm, 56.5000 mm): Pad 1 [MIDI_IN_RING] of D3 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(44.0000 mm, 59.6000 mm): Reference field of U2
+    @(44.1750 mm, 59.5000 mm): Pad 2 [+3V3] of R4 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.1600 mm, 63.6200 mm): Segment of J5 on B.Silkscreen
+    @(47.1500 mm, 64.0000 mm): Pad 2 [+3V3] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(47.8400 mm, 70.4700 mm): Segment of J5 on B.Silkscreen
+    @(47.8000 mm, 74.0000 mm): Pad 1 [+5V] of C8 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(47.8400 mm, 63.6200 mm): Segment of J5 on B.Silkscreen
+    @(47.1500 mm, 64.0000 mm): Pad 2 [+3V3] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(47.8400 mm, 63.6200 mm): Segment of J5 on B.Silkscreen
+    @(47.1500 mm, 66.3000 mm): Pad 3 [+5V] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 34.0000 mm): PTH pad S2 [GND] of ENC2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 54.0000 mm): PTH pad 1 [BTN3] of SW6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 58.5000 mm): PTH pad 2 [GND] of SW6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 44.5000 mm): PTH pad 2 [GND] of SW5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 68.0000 mm): PTH pad 1 [BTN4] of SW7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.3800 mm, 27.2700 mm): Segment of J3 on B.Silkscreen
+    @(94.5000 mm, 72.5000 mm): PTH pad 2 [GND] of SW7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.0500 mm, 23.2300 mm): Reference field of J3
+    @(94.5000 mm, 23.0000 mm): PTH pad S1 [ENC1_SW] of ENC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(11.5000 mm, 24.5700 mm): Reference field of R17
+    @(10.8250 mm, 24.0000 mm): Pad 1 [MIDI_TX] of R16 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(16.0900 mm, 13.3200 mm): Segment of J6 on B.Silkscreen
+    @(16.6800 mm, 14.5000 mm): PTH pad MH1 [<no net>] of J8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.0000 mm, 72.8200 mm): Reference field of C3
+    @(18.4250 mm, 70.0000 mm): Pad 2 [BATP] of L2 on B.Cu
+
+** Found 40 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-11.9756 mm, 52.4673 mm): Track [GND] on B.Cu, length 1.5877 mm
+    @(-2.3800 mm, 55.0000 mm): Track [GND] on B.Cu, length 8.2183 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6.5100 mm, 55.0000 mm): Pad 25 [GND] of U1 on B.Cu
+    @(10.7000 mm, 53.4000 mm): Pad S [GND] of J10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6.5100 mm, 55.0000 mm): Pad 25 [GND] of U1 on B.Cu
+    @(-2.3800 mm, 55.0000 mm): Track [GND] on B.Cu, length 8.2183 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.7000 mm, 51.7640 mm): Track [GND] on B.Cu, length 1.6360 mm
+    @(11.5285 mm, 36.4252 mm): Track [GND] on B.Cu, length 0.8412 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.5600 mm, 28.0000 mm): Track [GND] on B.Cu, length 1.9799 mm
+    @(10.2900 mm, 28.0000 mm): Pad 79 [GND] of U1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(17.2400 mm, 12.8750 mm): Pad SH [GND] of J6 on B.Cu
+    @(11.2700 mm, 13.3633 mm): Track [GND] on B.Cu, length 3.9373 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.9827 mm, 11.6826 mm): Track [GND] on B.Cu, length 12.0645 mm
+    @(12.6050 mm, 2.0500 mm): Track [GND] on B.Cu, length 0.8517 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.0500 mm, 31.0800 mm): Track [GND] on F.Cu, length 0.8700 mm
+    @(88.0000 mm, 30.5000 mm): PTH pad 2 [GND] of SW4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.5000 mm, 18.0000 mm): Track [GND] on B.Cu, length 3.5000 mm
+    @(88.0000 mm, 14.5000 mm): PTH pad 2 [GND] of SW1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.0000 mm, 51.4000 mm): PTH pad 11 [ENC2_SW] of J2
+    @(94.5000 mm, 39.0000 mm): PTH pad S1 [ENC2_SW] of ENC2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.0000 mm, 33.6200 mm): PTH pad 4 [ENC1_A] of J2
+    @(80.0000 mm, 18.0000 mm): PTH pad A [ENC1_A] of ENC1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.0000 mm, 65.7500 mm): Track [KEY_BTN] on F.Cu, length 6.5000 mm
+    @(9.8250 mm, 72.9050 mm): Track [KEY_BTN] on B.Cu, length 2.1547 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.5000 mm, 40.0000 mm): PTH pad 1 [BTN2] of SW5
+    @(87.8002 mm, 40.1998 mm): Track [BTN2] on B.Cu, length 0.2826 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.0000 mm, 6.0000 mm): PTH pad 1 [NRST] of SW2
+    @(40.7583 mm, 57.7336 mm): Track [NRST] on B.Cu, length 13.7884 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(91.3759 mm, 29.7388 mm): Track [BTN1] on B.Cu, length 2.3490 mm
+    @(88.0000 mm, 26.0000 mm): PTH pad 1 [BTN1] of SW4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(14.6534 mm, 41.3233 mm): Track [I2C_SDA] on B.Cu, length 0.1369 mm
+    @(50.8250 mm, 35.0000 mm): Pad 1 [I2C_SDA] of R1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.5900 mm, 55.0000 mm): Track [SPI_SCLK] on B.Cu, length 0.8870 mm
+    @(93.0500 mm, 33.6200 mm): PTH pad 4 [SPI_SCLK] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-12.5400 mm, 54.0983 mm): Track [USB_DP] on B.Cu, length 1.2046 mm
+    @(29.2500 mm, 70.9550 mm): Pad B6 [USB_DP] of J4 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-13.1233 mm, 40.8900 mm): Track [SPI_MOSI] on B.Cu, length 7.1052 mm
+    @(93.0500 mm, 36.1600 mm): PTH pad 5 [SPI_MOSI] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.0500 mm, 26.0000 mm): PTH pad 1 [SPI_MISO] of J3
+    @(-12.8817 mm, 39.3784 mm): Track [SPI_MISO] on B.Cu, length 1.2227 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-13.1233 mm, 35.8100 mm): Track [GPIO36] on B.Cu, length 3.0140 mm
+    @(53.8250 mm, 56.0000 mm): Track [GPIO36] on B.Cu, length 0.9808 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.5050 mm, 2.0500 mm): Pad 7 [SD_D0] of J6 on B.Cu
+    @(2.5906 mm, 17.1097 mm): Track [SD_D0] on F.Cu, length 20.9974 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.4550 mm, 2.0500 mm): Pad 8 [SD_D1] of J6 on B.Cu
+    @(13.5987 mm, 12.4498 mm): Track [SD_D1] on F.Cu, length 3.0028 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-7.4900 mm, 40.3926 mm): Track [PICO_RESET] on B.Cu, length 10.8100 mm
+    @(93.0500 mm, 48.8600 mm): PTH pad 10 [PICO_RESET] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-6.2200 mm, 29.1192 mm): Track [I2S_MCLK] on B.Cu, length 1.1192 mm
+    @(56.5400 mm, 42.0000 mm): PTH pad 2 [I2S_MCLK] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-4.9500 mm, 29.1086 mm): Track [I2S_BCLK] on B.Cu, length 1.1086 mm
+    @(54.0000 mm, 44.5400 mm): PTH pad 3 [I2S_BCLK] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.3250 mm, 26.0000 mm): Pad 1 [+3V3] of R17 on B.Cu
+    @(34.5250 mm, 21.3650 mm): Pad 7 [+3V3] of U4 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.1750 mm, 59.5000 mm): Pad 2 [+3V3] of R4 on B.Cu
+    @(40.8500 mm, 64.0000 mm): Pad 2 [+3V3] of U2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.1500 mm, 64.0000 mm): Pad 2 [+3V3] of U2 on B.Cu
+    @(44.1750 mm, 59.5000 mm): Pad 2 [+3V3] of R4 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.1750 mm, 35.0000 mm): Track [+3V3] on B.Cu, length 1.1529 mm
+    @(34.5250 mm, 21.3650 mm): Pad 7 [+3V3] of U4 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(49.9500 mm, 59.0000 mm): Track [+3V3] on B.Cu, length 2.2000 mm
+    @(53.2750 mm, 59.0000 mm): Track [+3V3] on B.Cu, length 0.8251 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.3598 mm, 35.8152 mm): Track [+3V3] on B.Cu, length 1.1529 mm
+    @(56.5400 mm, 49.6200 mm): Track [+3V3] on F.Cu, length 1.7961 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.6750 mm, 26.0000 mm): Pad 2 [MIDI_RING] of R17 on B.Cu
+    @(3.3000 mm, 36.4000 mm): Track [MIDI_RING] on B.Cu, length 1.6180 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(28.4500 mm, 66.7565 mm): Track [+5V] on B.Cu, length 1.2435 mm
+    @(19.9500 mm, 74.5000 mm): Track [+5V] on B.Cu, length 1.2850 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.8000 mm, 74.0000 mm): Track [+5V] on B.Cu, length 2.3787 mm
+    @(39.0000 mm, 71.5000 mm): Pad 1 [+5V] of D1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.3849 mm, 70.4678 mm): Track [BATP] on B.Cu, length 3.1130 mm
+    @(3.9500 mm, 27.0000 mm): Pad 1 [BATP] of C11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(15.5000 mm, 69.0950 mm): Pad 1 [USB5V] of U3 on B.Cu
+    @(21.8519 mm, 77.0981 mm): Track [USB5V] on B.Cu, length 1.2755 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.4500 mm, 70.9550 mm): Pad A4 [USB5V] of J4 on B.Cu
+    @(38.6280 mm, 64.5292 mm): Track [USB5V] on B.Cu, length 2.5988 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3.3000 mm, 55.4000 mm): Pad R [MIDI_IN_RING] of J10 on B.Cu
+    @(48.6500 mm, 55.3840 mm): Track [MIDI_IN_RING] on B.Cu, length 1.1160 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.6500 mm, 55.3840 mm): Track [MIDI_IN_RING] on B.Cu, length 1.1160 mm
+    @(40.7970 mm, 22.0342 mm): Track [MIDI_IN_RING] on B.Cu, length 0.6528 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

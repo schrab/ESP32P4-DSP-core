@@ -7493,6 +7493,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
 		(lib_id "JC-ESP32P4-M3:JC-ESP32P4-M3")
@@ -10080,16 +10412,6 @@
 		)
 		(uuid "b699b85f-773f-442e-b450-4df0a5e66558")
 	)
-	(wire
-		(pts
-			(xy 95.25 184.15) (xy 95.25 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e51a54-cb9f-4aa7-939a-48978102270f")
-	)
 	(label "USB5V"
 		(at 38.1 148.59 90)
 		(effects
@@ -10210,16 +10532,6 @@
 		)
 		(uuid "79c61b4c-1212-4263-aecb-880cbc617a5d")
 	)
-	(wire
-		(pts
-			(xy 62.230000000000004 187.96) (xy 54.61 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab153155-523b-436a-96e9-5b7c9fe81c78")
-	)
 	(label "GND"
 		(at 62.230000000000004 195.58 270)
 		(effects
@@ -10289,16 +10601,6 @@
 			(justify right bottom)
 		)
 		(uuid "4710b3fa-5737-4616-821d-87349e608707")
-	)
-	(wire
-		(pts
-			(xy 30.48 143.51) (xy 35.56 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32aaa349-db61-4817-9d54-51e56ea3de41")
 	)
 	(label "BATP"
 		(at 35.56 143.51 270)
@@ -10477,7 +10779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11357,272 +11659,6 @@
 		(at 209.55 44.45)
 		(uuid "42ea54e0-f33d-43ae-a1b4-e21d316b3d23")
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x20")
-		(at 214.63 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56c4a17b-499f-4a2a-89aa-8fbd7619b292")
-		(property "Reference" "J2"
-			(at 214.63 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PICO_P1-20"
-			(at 214.63 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
-			(at 214.63 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12df2860-61dd-4c89-85b5-62b13ef19d9f")
-		)
-		(pin "10"
-			(uuid "ae1c33fa-f0f9-4dd3-bb2a-24e877c1fa54")
-		)
-		(pin "11"
-			(uuid "6906fcf0-8ff0-4596-bc42-42d31db4c6a6")
-		)
-		(pin "12"
-			(uuid "0dec3e13-9519-4263-88fe-9fd1e61a9aa3")
-		)
-		(pin "13"
-			(uuid "693ed9c4-4b15-4107-9903-3b79e6e19e9b")
-		)
-		(pin "14"
-			(uuid "e0b853b8-f3ef-454a-9e17-ffa514849a72")
-		)
-		(pin "15"
-			(uuid "e430ea5b-f05d-43c1-825a-a1bb40fe3ceb")
-		)
-		(pin "16"
-			(uuid "d8837943-286a-40c9-9d71-b7d2aa547d4a")
-		)
-		(pin "17"
-			(uuid "d641a5c2-36e7-4503-ba9a-724cd5d445b4")
-		)
-		(pin "18"
-			(uuid "3d3e5f26-999c-4dae-8ca5-6f1519647407")
-		)
-		(pin "19"
-			(uuid "9dea2f26-726b-4b91-a173-5044e6256132")
-		)
-		(pin "2"
-			(uuid "7c90ea56-e1a3-4d82-a723-4e38ca2639ca")
-		)
-		(pin "20"
-			(uuid "27b5a6b9-db9e-4ee1-a545-5e1eb196f615")
-		)
-		(pin "3"
-			(uuid "bd7faaa5-b0ae-4867-b1cc-785e207821a0")
-		)
-		(pin "4"
-			(uuid "8ee6b710-b00b-4b82-9d38-6e9bde6886a6")
-		)
-		(pin "5"
-			(uuid "10dcb2c7-fd21-42ea-8943-f3c6e4f00cbd")
-		)
-		(pin "6"
-			(uuid "748da9e9-b199-48be-bf54-805fe94a868c")
-		)
-		(pin "7"
-			(uuid "ffe8a738-48af-4c75-9988-8a87e69b87fa")
-		)
-		(pin "8"
-			(uuid "a2ed663f-b0be-4361-a4c9-cbc6fb22f95e")
-		)
-		(pin "9"
-			(uuid "5d5bdf41-8a73-4059-9abe-b8a5917521db")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x20")
-		(at 260.35 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "634a69de-ed5e-43e0-9c11-a6f7845fe2b6")
-		(property "Reference" "J3"
-			(at 260.35 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PICO_P21-40"
-			(at 260.35 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
-			(at 260.35 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 260.35 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dc3f54a-274f-4125-92f4-0ebad40ad504")
-		)
-		(pin "10"
-			(uuid "75a31c80-80b3-4069-904a-63f9daead060")
-		)
-		(pin "11"
-			(uuid "60e2d24f-d2b0-4633-9a4b-fc9eb3552379")
-		)
-		(pin "12"
-			(uuid "cc6a4199-4d67-4182-ac24-05da1f6c0839")
-		)
-		(pin "13"
-			(uuid "9abb1948-132c-454c-bd08-f145835b0e5d")
-		)
-		(pin "14"
-			(uuid "ad4f2527-470f-44a5-ac5c-8399ae8b5aa1")
-		)
-		(pin "15"
-			(uuid "da039bf1-73a2-4e6c-8448-7a2ec5460462")
-		)
-		(pin "16"
-			(uuid "13264a3c-c165-4aec-9285-f67915668b93")
-		)
-		(pin "17"
-			(uuid "21c5705a-0ff8-468b-a4e4-caacff334e3d")
-		)
-		(pin "18"
-			(uuid "064d0a12-57b5-43f9-87ef-cf505102b28f")
-		)
-		(pin "19"
-			(uuid "2d42d77a-e316-4b93-9e1c-dcb05ff08435")
-		)
-		(pin "2"
-			(uuid "ed9c5ad7-1064-4909-a700-57a0e3c14245")
-		)
-		(pin "20"
-			(uuid "4b20043e-a6da-4f0d-919b-6ca9cfddfa45")
-		)
-		(pin "3"
-			(uuid "b295f381-8f5f-4a35-9460-6ce6262c7a7e")
-		)
-		(pin "4"
-			(uuid "7e790153-13df-47f9-8c67-21fff6e1e46d")
-		)
-		(pin "5"
-			(uuid "d09eefdd-708e-4a32-8d9b-e4997d2e20ac")
-		)
-		(pin "6"
-			(uuid "02b32f1d-5fb1-48f0-91ae-e7cdfd1af04e")
-		)
-		(pin "7"
-			(uuid "b3c0c2df-4755-43ea-badf-eb091a2708f8")
-		)
-		(pin "8"
-			(uuid "0f303a19-9723-4143-925c-9555619fb2af")
-		)
-		(pin "9"
-			(uuid "64882bc6-c3b6-4d16-919c-b82033c0b978")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(label "ENC1_SW"
 		(at 209.55 85.09 180)
 		(effects
@@ -11962,596 +11998,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2b680eb-edd3-454f-ba14-80f72e1af9de")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x07")
-		(at 209.55 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4581c0c1-bb6d-43e5-b76c-afc96119472b")
-		(property "Reference" "J8"
-			(at 209.55 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OLED_2.42_SPI"
-			(at 209.55 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 209.55 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "add8e6bb-92eb-4319-b3fd-c725487f5f55")
-		)
-		(pin "2"
-			(uuid "3a570a64-cfe3-481b-95a0-ec69c8881458")
-		)
-		(pin "3"
-			(uuid "0ff75d15-8080-458f-bd04-ab9a368de8d2")
-		)
-		(pin "4"
-			(uuid "e5b082d7-1a1b-41b8-acd2-9dac8ead814c")
-		)
-		(pin "5"
-			(uuid "5aa929f9-af3d-4c83-9f6e-78a02df06731")
-		)
-		(pin "6"
-			(uuid "750721f0-ffe0-40fb-bdd2-d71460c6bae5")
-		)
-		(pin "7"
-			(uuid "43dbcae9-55df-4285-953c-ffe76a20510b")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 232.41 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3efe754f-11b1-4675-a1e1-06075ae37641")
-		(property "Reference" "ENC1"
-			(at 232.41 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC11"
-			(at 232.41 149.85999999999999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles"
-			(at 228.6 161.544 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 164.084 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 232.41 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "3cd24619-c281-4da1-9172-a4409c383214")
-		)
-		(pin "B"
-			(uuid "b9cc3a4a-e463-494a-8910-b8f8f67a2277")
-		)
-		(pin "C"
-			(uuid "f190cd63-0045-41c6-9bf4-3f06e1af1e11")
-		)
-		(pin "S1"
-			(uuid "1148e915-b674-4d6e-b75f-a43e01853a06")
-		)
-		(pin "S2"
-			(uuid "2182803e-82ec-4c78-8632-4441b24a9a6b")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "ENC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 245.11 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b4095a2-8a07-4a97-b3d1-a0a37503c9b8")
-		(property "Reference" "ENC2"
-			(at 245.0 165.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC11"
-			(at 245.0 164.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles"
-			(at 241.19 176.06400000000002 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.0 178.604 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 245.0 172.0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "7a29007a-bd59-446e-9a23-56d4ebce465f")
-		)
-		(pin "B"
-			(uuid "60533582-89fb-40b7-8a3a-635e9128f949")
-		)
-		(pin "C"
-			(uuid "cf027a98-3e31-4daa-b44c-7adcd5263852")
-		)
-		(pin "S1"
-			(uuid "012e540b-700d-42cd-9cb0-b7101ccd7377")
-		)
-		(pin "S2"
-			(uuid "fd8d67e8-98f2-4f84-a688-70fd162f97ad")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "ENC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 195.58 185.42000000000002 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1003bf99-5e4f-4b12-9c78-ff8af69ccf77")
-		(property "Reference" "SW4"
-			(at 195.58 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTN1"
-			(at 195.58 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 195.58 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 195.58 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef8ae63a-9229-44e5-8175-c492ceecf554")
-		)
-		(pin "2"
-			(uuid "0c485a5f-eb06-49be-aec4-7c943e999401")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 212.09 185.42000000000002 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22efbefd-4946-41c8-9b3b-8ec5156f4e2a")
-		(property "Reference" "SW5"
-			(at 212.0 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTN2"
-			(at 212.0 181.60999999999999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 212.0 191.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.0 191.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 212.0 186.0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc0eb246-2406-4eff-92b6-0c2b159800b1")
-		)
-		(pin "2"
-			(uuid "406b7c81-0fa2-4596-978f-ea2e005eb63a")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 228.6 185.42000000000002 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f994bcdb-0d33-4402-90f0-fa1196b05604")
-		(property "Reference" "SW6"
-			(at 229.0 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTN3"
-			(at 229.0 181.60999999999999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 229.0 191.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.0 191.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 229.0 186.0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f45b3253-b035-4ed5-ad48-c8ad78edeb53")
-		)
-		(pin "2"
-			(uuid "46101196-697a-4a52-8ee2-13b181e0ecb0")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 240.03 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "078e19ad-856d-415f-99c4-d9c50253f6e9")
-		(property "Reference" "SW7"
-			(at 240.0 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTN4"
-			(at 240.0 182.88000000000002 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 240.0 183.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.0 183.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 240.0 178.0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74dcf2aa-17ae-4ea6-9bf3-90e66869892c")
-		)
-		(pin "2"
-			(uuid "71b3c073-c82c-4a16-ab97-a0735d2201de")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
@@ -13449,26 +12895,6 @@
 			(justify left bottom)
 		)
 		(uuid "047f57fe-65ea-4514-97d3-68fcb9ae5608")
-	)
-	(wire
-		(pts
-			(xy 246.38 193.04) (xy 237.49 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcec95d7-d92d-4708-8e16-2822d19f1b61")
-	)
-	(wire
-		(pts
-			(xy 246.38 198.12) (xy 237.49 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063ed80b-d344-4d39-b02e-3943400cb6a5")
 	)
 	(label "GND"
 		(at 254.0 205.74 270)
@@ -15451,6 +14877,183 @@
 			(justify left bottom)
 		)
 		(uuid "c20a4b1d-0956-4dd0-bd7d-9b0cebf4e283")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 219.71 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af3023a4-4369-4d61-bb5e-a9b2605153a0")
+		(property "Reference" "J11"
+			(at 219.71 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UI_BOARD"
+			(at 219.71 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 219.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0f6bb2b-4cae-4692-b912-462157479072")
+		)
+		(pin "2"
+			(uuid "abf63bf4-2d12-47ff-b595-505e854edc07")
+		)
+		(pin "3"
+			(uuid "276ed24b-7a67-4243-95e1-4254f780f1d0")
+		)
+		(pin "4"
+			(uuid "6b67b79e-bd60-4110-8e7b-0811255663c6")
+		)
+		(pin "5"
+			(uuid "9bce700e-cd5f-448e-92f7-e4df716ea039")
+		)
+		(pin "6"
+			(uuid "c890c1ee-e270-4bd7-8187-8fd391ed0b6e")
+		)
+		(pin "7"
+			(uuid "75061ac6-eb4c-4a7d-9899-b820e9d4b00f")
+		)
+		(pin "8"
+			(uuid "89ed090a-0f14-49b3-9c3e-94f6c6faa140")
+		)
+		(instances
+			(project "ESP32P4"
+				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "GND"
+		(at 214.63 31.749999999999996 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "858ee80a-1f99-48c6-8cd4-e9b7c4a18f5c")
+	)
+	(label "+3V3"
+		(at 214.63 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67e52b98-7a46-4a20-8a31-65c460d555c1")
+	)
+	(label "SPI_MOSI"
+		(at 214.63 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad591ed2-234d-4df6-ad02-e245ed17fa42")
+	)
+	(label "SPI_MISO"
+		(at 214.63 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c015c90-c2e8-4e64-be95-40cb153adad5")
+	)
+	(label "SPI_SCLK"
+		(at 214.63 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4014bbf-c878-4e2a-8afa-872e39f1525b")
+	)
+	(label "SPI_CS"
+		(at 214.63 44.449999999999996 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2bd64b0-5af4-4401-a503-a29288bd7c9d")
+	)
+	(label "SPI_HS"
+		(at 214.63 46.989999999999995 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da9fd547-3724-4df7-a723-fead320d34b0")
+	)
+	(label "PICO_RESET"
+		(at 214.63 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39be75d5-51ba-4f58-8362-0f9f35679c30")
 	)
 	(sheet_instances
 		(path "/"
