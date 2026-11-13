@@ -1,486 +1,82 @@
 {
   "board": "C:\\Users\\schra\\Developer\\JC-ESP32P4-M3-DEV\\ESP32P4\\ESP32P4.kicad_pcb",
-  "timestamp": "2026-11-12T21:16:38",
-  "total_violations": 287,
+  "timestamp": "2026-11-13T19:12:13",
+  "total_violations": 54,
   "violation_counts": {
-    "shorting_items": 18,
-    "clearance": 26,
-    "hole_clearance": 2,
-    "courtyards_overlap": 8,
-    "pth_inside_courtyard": 50,
-    "copper_edge_clearance": 25,
-    "track_width": 5,
-    "solder_mask_bridge": 35,
-    "via_dangling": 34,
-    "track_dangling": 1,
-    "silk_edge_clearance": 6,
-    "hole_to_hole": 4,
-    "silk_overlap": 17,
-    "silk_over_copper": 56
+    "clearance": 4,
+    "shorting_items": 2,
+    "courtyards_overlap": 4,
+    "pth_inside_courtyard": 1,
+    "copper_edge_clearance": 16,
+    "solder_mask_bridge": 2,
+    "silk_edge_clearance": 1,
+    "lib_footprint_mismatch": 2,
+    "silk_overlap": 12,
+    "silk_over_copper": 10
   },
   "severity_counts": {
-    "error": 169,
-    "warning": 118,
+    "error": 29,
+    "warning": 25,
     "info": 0
   },
   "violations": [
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets BTN2 and ENC2_SW)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 54.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0974 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 54.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0579 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets BTN2 and ENC2_SW)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0974 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0579 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 58.5,
-        "unit": "mm"
-      }
-    },
     {
       "type": "clearance",
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1659 mm)",
       "location": {
-        "x": 47.93,
-        "y": 68.71,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 58.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 14.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 14.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 26.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_clearance",
-      "severity": "error",
-      "message": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 6.51,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 26.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1650 mm)",
-      "location": {
-        "x": 3.3,
-        "y": 55.4,
+        "x": 47.15,
+        "y": 66.3,
         "unit": "mm"
       }
     },
     {
       "type": "shorting_items",
       "severity": "error",
-      "message": "Items shorting two nets (nets MIDI_IN_RING and unconnected-(U1-DSI_DATAN1-Pad27))",
+      "message": "Items shorting two nets (nets I2S_DOUT and unconnected-(U1-CSI_DATAP1-Pad38))",
       "location": {
-        "x": 3.3,
-        "y": 55.4,
+        "x": 54.0,
+        "y": 42.0,
         "unit": "mm"
       }
     },
     {
       "type": "shorting_items",
       "severity": "error",
-      "message": "Items shorting two nets (nets MIDI_IN_RING and unconnected-(U1-DSI_CLKN-Pad28))",
+      "message": "Items shorting two nets (nets I2S_MCLK and USB_DP)",
       "location": {
-        "x": 3.3,
-        "y": 55.4,
+        "x": 56.54,
+        "y": 42.0,
         "unit": "mm"
       }
     },
     {
       "type": "clearance",
       "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0950 mm)",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0450 mm)",
       "location": {
-        "x": 3.3,
-        "y": 55.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets GND and SPI_SCLK)",
-      "location": {
-        "x": 10.7,
-        "y": 53.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets SPI_SCLK and GND)",
-      "location": {
-        "x": 93.05,
-        "y": 33.62,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets GND and unconnected-(U1-GPIO22-Pad23))",
-      "location": {
-        "x": 10.7,
-        "y": 53.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets GND and +5V)",
-      "location": {
-        "x": 94.5,
-        "y": 72.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets SPI_SCLK and GND)",
-      "location": {
-        "x": 93.05,
-        "y": 33.62,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets GND and +5V)",
-      "location": {
-        "x": 94.5,
-        "y": 72.5,
+        "x": 52.73,
+        "y": 41.0,
         "unit": "mm"
       }
     },
     {
       "type": "clearance",
       "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0450 mm)",
       "location": {
-        "x": 17.24,
-        "y": 12.875,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets BTN1 and SPI_MISO)",
-      "location": {
-        "x": 94.5,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets BTN1 and SPI_MISO)",
-      "location": {
-        "x": 94.5,
-        "y": 26.0,
+        "x": 55.27,
+        "y": 41.0,
         "unit": "mm"
       }
     },
     {
       "type": "clearance",
       "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1303 mm)",
       "location": {
-        "x": 87.5,
-        "y": 30.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 30.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1380 mm)",
-      "location": {
-        "x": 93.05,
-        "y": 66.64,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1380 mm)",
-      "location": {
-        "x": 93.05,
-        "y": 66.64,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0195 mm)",
-      "location": {
-        "x": 93.05,
-        "y": 69.18,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0195 mm)",
-      "location": {
-        "x": 93.05,
-        "y": 69.18,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets ENC2_SW and OLED_DC)",
-      "location": {
-        "x": 94.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets ENC2_SW and OLED_DC)",
-      "location": {
-        "x": 94.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets unconnected-(U1-GPIO21-Pad22) and GND)",
-      "location": {
-        "x": 10.32,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_clearance",
-      "severity": "error",
-      "message": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 7.78,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets unconnected-(U1-GPIO52-Pad72) and GND)",
-      "location": {
-        "x": 1.4,
-        "y": 28.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets unconnected-(U1-GPIO53-Pad73) and GND)",
-      "location": {
-        "x": 2.67,
-        "y": 28.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets unconnected-(U1-GPIO54-Pad74) and BATP)",
-      "location": {
-        "x": 3.94,
-        "y": 28.0,
+        "x": 55.27,
+        "y": 41.0,
         "unit": "mm"
       }
     },
@@ -488,6 +84,256 @@
       "type": "courtyards_overlap",
       "severity": "error",
       "message": "Courtyards overlap",
+      "location": {
+        "x": 58.0,
+        "y": 66.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "pth_inside_courtyard",
+      "severity": "error",
+      "message": "PTH inside courtyard",
+      "location": {
+        "x": 47.93,
+        "y": 68.71,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 58.0,
+        "y": 66.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 44.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 45.0,
+        "y": 74.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2300 mm)",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Front solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 56.54,
+        "y": 42.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Front solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 54.0,
+        "y": 41.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 95.0,
+        "y": 80.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'SW_SPST_B3U-1000P' does not match copy in library 'Button_Switch_SMD'",
+      "location": {
+        "x": 70.0,
+        "y": 6.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'SW_SPST_B3U-1000P' does not match copy in library 'Button_Switch_SMD'",
       "location": {
         "x": 88.0,
         "y": 10.0,
@@ -495,1672 +341,12 @@
       }
     },
     {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 87.5,
-        "y": 14.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 88.0,
-        "y": 14.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 14.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 80.0,
-        "y": 34.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 88.0,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 88.0,
-        "y": 44.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 44.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 28.54,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 31.08,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 33.62,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 36.16,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 38.7,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 41.24,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 43.78,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 34.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 80.0,
-        "y": 34.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 88.0,
-        "y": 30.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 30.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 87.5,
-        "y": 30.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 28.54,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 80.0,
-        "y": 18.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 88.0,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 87.5,
-        "y": 26.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 66.64,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 69.18,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 71.72,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 74.26,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 68.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 72.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 16.68,
-        "y": 14.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 38.7,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 41.24,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 43.78,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 46.32,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 44.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 54.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 58.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 53.94,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 56.48,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 59.02,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 94.5,
-        "y": 30.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 28.54,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 93.05,
-        "y": 31.08,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 44.0,
-        "y": 64.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 44.0,
-        "y": 64.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 47.93,
-        "y": 68.71,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 45.0,
-        "y": 74.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "courtyards_overlap",
-      "severity": "error",
-      "message": "Courtyards overlap",
-      "location": {
-        "x": 45.0,
-        "y": 74.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3655 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4359 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2423 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2423 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2423 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4359 mm)",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "copper_edge_clearance",
-      "severity": "error",
-      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "track_width",
-      "severity": "error",
-      "message": "Track width (board setup constraints min width 0.1500 mm; actual 0.1200 mm)",
-      "location": {
-        "x": 30.8984,
-        "y": 69.6881,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "track_width",
-      "severity": "error",
-      "message": "Track width (board setup constraints min width 0.1500 mm; actual 0.1200 mm)",
-      "location": {
-        "x": 31.05,
-        "y": 69.5365,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "track_width",
-      "severity": "error",
-      "message": "Track width (board setup constraints min width 0.1500 mm; actual 0.1000 mm)",
-      "location": {
-        "x": 44.9467,
-        "y": 60.5006,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "track_width",
-      "severity": "error",
-      "message": "Track width (board setup constraints min width 0.1500 mm; actual 0.1000 mm)",
-      "location": {
-        "x": 32.0387,
-        "y": 69.9719,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "track_width",
-      "severity": "error",
-      "message": "Track width (board setup constraints min width 0.1500 mm; actual 0.1000 mm)",
-      "location": {
-        "x": 32.2169,
-        "y": 69.9719,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 88.0,
-        "y": 14.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 17.24,
-        "y": 12.875,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 11.59,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 88.0,
-        "y": 14.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 10.32,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 26.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 30.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 9.05,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 30.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 33.62,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 33.62,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 38.7,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 3.97,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 38.7,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 42.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 2.7,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 94.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 3.95,
-        "y": 27.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 53.94,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 53.94,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 94.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 2.05,
-        "y": 27.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 59.02,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 2.05,
-        "y": 27.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 59.02,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 71.72,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 26.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 93.05,
-        "y": 71.72,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 87.5,
-        "y": 26.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 7.0,
-        "y": 54.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 7.0,
-        "y": 54.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
+      "type": "silk_overlap",
       "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
+      "message": "Silkscreen clearance",
       "location": {
-        "x": 11.8976,
-        "y": 30.5803,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 10.7,
-        "y": 51.764,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 2.05,
-        "y": 25.7398,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 11.9827,
-        "y": 11.6826,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "track_dangling",
-      "severity": "warning",
-      "message": "Track has unconnected end",
-      "location": {
-        "x": -11.7677,
-        "y": 50.3748,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 51.7427,
-        "y": 34.6999,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 14.6534,
-        "y": 41.1864,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 56.825,
-        "y": 35.9795,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 12.477,
-        "y": 55.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -11.6882,
-        "y": 53.1459,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -8.0992,
-        "y": 33.6037,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -12.8817,
-        "y": 38.1557,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -10.9921,
-        "y": 37.9412,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 53.825,
-        "y": 55.0192,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 11.3468,
-        "y": 0.9761,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 10.455,
-        "y": 0.9761,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -12.57,
-        "y": 26.8754,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 16.8969,
-        "y": 3.1259,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -11.3,
-        "y": 26.8914,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -10.03,
-        "y": 26.8748,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 13.705,
-        "y": 3.1349,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -8.76,
-        "y": 26.8768,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 0.1538,
-        "y": 48.0364,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -6.22,
-        "y": 29.1192,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": -4.95,
-        "y": 29.1086,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 3.3,
-        "y": 34.782,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 11.3486,
-        "y": 71.3814,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 39.0379,
-        "y": 59.9121,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 4.8568,
-        "y": 26.0932,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 16.3127,
-        "y": 68.2666,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 21.8519,
-        "y": 77.0981,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 31.95,
-        "y": 5.2318,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 40.797,
-        "y": 22.0342,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 48.65,
-        "y": 55.384,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "via_dangling",
-      "severity": "warning",
-      "message": "Via is not connected or connected on only one layer",
-      "location": {
-        "x": 40.7912,
-        "y": 23.3042,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge",
-      "location": {
-        "x": 0.0,
-        "y": 75.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge",
-      "location": {
-        "x": 5.0,
-        "y": 0.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_to_hole",
-      "severity": "warning",
-      "message": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 14.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_to_hole",
-      "severity": "warning",
-      "message": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 30.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_to_hole",
-      "severity": "warning",
-      "message": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 94.5,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_to_hole",
-      "severity": "warning",
-      "message": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 87.5,
-        "y": 26.1,
+        "x": 40.65,
+        "y": 73.01,
         "unit": "mm"
       }
     },
@@ -2169,378 +355,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 91.25,
-        "y": 38.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 93.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 89.0,
-        "y": 15.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 89.0,
-        "y": 31.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 93.5,
-        "y": 25.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 87.5,
-        "y": 36.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 87.75,
-        "y": 27.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.5,
-        "y": 14.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.0,
-        "y": 15.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 14.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.0,
-        "y": 59.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.0,
-        "y": 73.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.5,
-        "y": 67.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 91.25,
-        "y": 66.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 91.25,
-        "y": 38.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.5,
-        "y": 39.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 35.2,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 40.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 87.75,
-        "y": 41.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.0,
-        "y": 45.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 91.25,
-        "y": 52.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.5,
-        "y": 30.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.5,
-        "y": 30.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 30.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 30.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 30.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 26.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 26.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.0,
-        "y": 31.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 89.0,
-        "y": 31.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 24.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.6,
-        "y": 24.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 10.0,
-        "y": 22.57,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 3.9,
-        "y": 46.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.36,
-        "y": 55.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.36,
-        "y": 57.5,
+        "x": 37.35,
+        "y": 73.01,
         "unit": "mm"
       }
     },
@@ -2579,28 +395,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 40.65,
-        "y": 73.01,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 37.35,
-        "y": 73.01,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 48.41,
-        "y": 76.345563,
+        "x": 49.36,
+        "y": 55.5,
         "unit": "mm"
       }
     },
@@ -2619,18 +415,48 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
+        "x": 48.41,
+        "y": 76.345563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 10.0,
+        "y": 22.57,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
         "x": 19.0,
         "y": 72.82,
         "unit": "mm"
       }
     },
     {
-      "type": "silk_over_copper",
+      "type": "silk_overlap",
       "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
+      "message": "Silkscreen clearance",
       "location": {
-        "x": 3.261252,
-        "y": 27.735,
+        "x": 49.36,
+        "y": 57.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 3.9,
+        "y": 46.6,
         "unit": "mm"
       }
     },
@@ -2639,68 +465,8 @@
       "severity": "warning",
       "message": "Silkscreen clipped by solder mask",
       "location": {
-        "x": 7.0,
-        "y": 28.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 7.0,
-        "y": 28.1,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 10.0,
-        "y": 22.57,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 10.0,
-        "y": 22.57,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 10.1,
-        "y": 54.7,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 10.1,
-        "y": 54.7,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 10.1,
-        "y": 61.2,
+        "x": 44.0,
+        "y": 59.6,
         "unit": "mm"
       }
     },
@@ -2719,8 +485,18 @@
       "severity": "warning",
       "message": "Silkscreen clipped by solder mask",
       "location": {
-        "x": 44.0,
-        "y": 59.6,
+        "x": 47.84,
+        "y": 63.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 47.84,
+        "y": 63.62,
         "unit": "mm"
       }
     },
@@ -2749,8 +525,8 @@
       "severity": "warning",
       "message": "Silkscreen clipped by solder mask",
       "location": {
-        "x": 47.84,
-        "y": 63.62,
+        "x": 10.0,
+        "y": 22.57,
         "unit": "mm"
       }
     },
@@ -2759,108 +535,8 @@
       "severity": "warning",
       "message": "Silkscreen clipped by solder mask",
       "location": {
-        "x": 47.84,
-        "y": 63.62,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 94.38,
-        "y": 27.27,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 93.05,
-        "y": 23.23,
+        "x": 10.0,
+        "y": 22.57,
         "unit": "mm"
       }
     },
@@ -2871,16 +547,6 @@
       "location": {
         "x": 11.5,
         "y": 24.57,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 16.09,
-        "y": 13.32,
         "unit": "mm"
       }
     },
