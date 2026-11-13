@@ -12952,16 +12952,6 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "450d61af-5a99-4508-a744-f9744c4335f2")
-	)
-	(label "+3V3"
-		(at 207.01 127.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "0fb9c058-e2e5-4636-8887-b12e66322bf8")
 	)
 	(wire
@@ -12974,12 +12964,6 @@
 		)
 		(uuid "6e7195f5-bc60-4d1a-b8c1-26120a4f5860")
 	)
-	(junction
-		(at 132.08 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7974a938-9913-4db6-baf9-cbee611427b3")
-	)
 	(label "NRST"
 		(at 133.35 160.02 0)
 		(effects
@@ -12989,26 +12973,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec4bef72-df2f-41c5-a0f2-fc17b3e90ad0")
-	)
-	(label "+3V3"
-		(at 132.08 152.4 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9649b01-bdf3-4c8f-807b-65c7137837e4")
-	)
-	(label "+3V3"
-		(at 114.3 152.4 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1568bf07-d5f9-442c-b09e-1745482d601d")
 	)
 	(label "GND"
 		(at 129.54000000000002 160.02 0)
@@ -13020,20 +12984,40 @@
 		)
 		(uuid "2e002f68-6aad-4626-b2b0-98fdd1a1da4f")
 	)
+	(label "+3V3"
+		(at 114.3 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a1d663d-e30e-4db8-a5bb-2ad973af00b9")
+	)
+	(label "+3V3"
+		(at 132.08 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a23aa01-d249-4c7a-be26-8d348994da58")
+	)
+	(label "+3V3"
+		(at 207.01 127.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b943c715-fb51-47c6-b6af-c07ccb4d619f")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
-	(wire
-		(pts
-			(xy 129.54 160.02) (xy 132.08 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66cc6352-f147-499d-afc4-91a3e3744f48")
-	)
 )
