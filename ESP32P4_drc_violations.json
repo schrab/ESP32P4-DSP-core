@@ -1,6 +1,6 @@
 {
   "board": "C:\\Users\\schra\\Developer\\JC-ESP32P4-M3-DEV\\ESP32P4\\ESP32P4.kicad_pcb",
-  "timestamp": "2026-11-13T20:03:13",
+  "timestamp": "2026-11-13T20:10:08",
   "total_violations": 18,
   "violation_counts": {
     "silk_edge_clearance": 1,

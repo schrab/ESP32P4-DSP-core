@@ -11056,7 +11056,7 @@
 		(uuid "56874261-8c20-4405-a996-a002b2509358")
 	)
 	(label "I2S_BCLK"
-		(at 209.55 41.910000000000004 180)
+		(at 209.55 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11066,7 +11066,7 @@
 		(uuid "b24e2664-8f33-444c-bcf1-4835a4533bc2")
 	)
 	(label "I2S_DIN"
-		(at 222.25 41.910000000000004 0)
+		(at 222.25 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11281,7 +11281,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 219.71 190.5 0)
+		(at 219.71 135.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11291,7 +11291,7 @@
 		(dnp no)
 		(uuid "b8a25a87-9be6-4aa8-9180-809956ff68ae")
 		(property "Reference" "J9"
-			(at 219.71 208.28 0)
+			(at 219.71 153.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11301,7 +11301,7 @@
 			)
 		)
 		(property "Value" "MIDI_OUT"
-			(at 219.71 209.55 0)
+			(at 219.71 154.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11311,7 +11311,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 219.71 190.5 0)
+			(at 219.71 135.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11322,7 +11322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 190.5 0)
+			(at 219.71 135.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11333,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 219.71 190.5 0)
+			(at 219.71 135.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11363,7 +11363,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 232.41 190.5 0)
+		(at 232.41 135.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11373,7 +11373,7 @@
 		(dnp no)
 		(uuid "6bd6ecbe-1ef5-47e5-a7f3-acf2d5fb7392")
 		(property "Reference" "J10"
-			(at 232.41 185.42 0)
+			(at 232.41 130.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11383,7 +11383,7 @@
 			)
 		)
 		(property "Value" "MIDI_IN"
-			(at 232.41 184.14999999999998 0)
+			(at 232.41 129.14999999999998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11393,7 +11393,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 232.41 190.5 0)
+			(at 232.41 135.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11404,7 +11404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 190.5 0)
+			(at 232.41 135.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11415,7 +11415,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 232.41 190.5 0)
+			(at 232.41 135.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +11445,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:6N137")
-		(at 254.0 195.58 0)
+		(at 254.0 140.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11455,7 +11455,7 @@
 		(dnp no)
 		(uuid "5379e2d1-f757-4539-bf58-6e8b0ef26a8e")
 		(property "Reference" "U4"
-			(at 254.0 176.53 0)
+			(at 254.0 121.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11465,7 +11465,7 @@
 			)
 		)
 		(property "Value" "6N137"
-			(at 254.0 175.26 0)
+			(at 254.0 120.25999999999999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11475,7 +11475,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 254.0 183.3 0)
+			(at 254.0 128.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11486,7 +11486,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0940EN"
-			(at 232.41 209.97 0)
+			(at 232.41 154.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11497,7 +11497,7 @@
 			)
 		)
 		(property "Description" "Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8"
-			(at 254.0 196.0 0)
+			(at 254.0 141.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11542,7 +11542,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 269.24 195.58 0)
+		(at 269.24 140.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11552,7 +11552,7 @@
 		(dnp no)
 		(uuid "c0991e7b-3002-4e48-93d3-284a98937f25")
 		(property "Reference" "D3"
-			(at 269.24 215.9 0)
+			(at 269.24 160.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11562,7 +11562,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 269.24 217.17000000000002 0)
+			(at 269.24 162.17000000000002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11572,7 +11572,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 269.0 196.0 0)
+			(at 269.0 141.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11583,7 +11583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.0 196.0 0)
+			(at 269.0 141.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11594,7 +11594,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 269.0 196.0 0)
+			(at 269.0 141.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11621,7 +11621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 175.26 0)
+		(at 214.63 120.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11631,7 +11631,7 @@
 		(dnp no)
 		(uuid "510a71cc-7e93-4ab2-85db-40e3aa8ad15e")
 		(property "Reference" "R16"
-			(at 199.39 175.26 0)
+			(at 199.39 120.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11641,7 +11641,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 199.39 176.53 0)
+			(at 199.39 121.53000000000002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11651,7 +11651,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.852 175.26 90)
+			(at 212.852 120.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11662,7 +11662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 175.26 0)
+			(at 214.63 120.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +11673,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 175.26 0)
+			(at 214.63 120.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +11700,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 175.26 0)
+		(at 218.44 120.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11710,7 +11710,7 @@
 		(dnp no)
 		(uuid "2f52d83a-19da-4beb-966e-02996a747b52")
 		(property "Reference" "R17"
-			(at 218.44 162.56 0)
+			(at 218.44 107.56000000000002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11720,7 +11720,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 218.44 161.29 0)
+			(at 218.44 106.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11730,7 +11730,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.662 175.26 90)
+			(at 216.662 120.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11741,7 +11741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 175.26 0)
+			(at 218.44 120.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11752,7 +11752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 175.26 0)
+			(at 218.44 120.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11779,7 +11779,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 175.26 0)
+		(at 223.52 120.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11789,7 +11789,7 @@
 		(dnp no)
 		(uuid "2085f7ee-1d42-4d54-af26-e21ff2307be4")
 		(property "Reference" "R18"
-			(at 227.33 175.26 0)
+			(at 227.33 120.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11799,7 +11799,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 227.33 176.53 0)
+			(at 227.33 121.53000000000002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11809,7 +11809,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 221.742 175.26 90)
+			(at 221.742 120.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11820,7 +11820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 175.26 0)
+			(at 223.52 120.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,7 +11831,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 175.26 0)
+			(at 223.52 120.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11857,7 @@
 		)
 	)
 	(label "MIDI_RING"
-		(at 224.79 190.5 270)
+		(at 224.79 135.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11867,7 +11867,7 @@
 		(uuid "0aab1881-6edf-40ed-aeb8-6121feac8f26")
 	)
 	(label "GND"
-		(at 224.79 187.96 0)
+		(at 224.79 132.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11877,7 +11877,7 @@
 		(uuid "5f77fda7-2f27-4e84-b6ed-2a658fba9795")
 	)
 	(label "MIDI_TIP"
-		(at 224.79 193.04 270)
+		(at 224.79 138.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11887,7 +11887,7 @@
 		(uuid "38ae4515-bd66-4f86-ae86-29eb6b55dfa3")
 	)
 	(label "MIDI_IN_RING"
-		(at 237.49 190.5 0)
+		(at 237.49 135.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11897,7 +11897,7 @@
 		(uuid "a4d3b990-93e8-431b-926a-b9683f32031e")
 	)
 	(label "GND"
-		(at 237.49 187.96 0)
+		(at 237.49 132.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11907,7 +11907,7 @@
 		(uuid "c215bbba-7724-4163-afdf-4c960d838e1c")
 	)
 	(label "MIDI_IN_TIP"
-		(at 237.49 193.04 270)
+		(at 237.49 138.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11917,7 +11917,7 @@
 		(uuid "0a502de2-0cad-4abd-9605-96037c8f6061")
 	)
 	(label "MIDI_IN_RING"
-		(at 265.43 195.58 270)
+		(at 265.43 140.58 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11927,7 +11927,7 @@
 		(uuid "2351a463-1df6-4b9f-9761-a57c4773a81a")
 	)
 	(label "MIDI_IN_TIP"
-		(at 273.05 195.58 0)
+		(at 273.05 140.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11937,7 +11937,7 @@
 		(uuid "047f57fe-65ea-4514-97d3-68fcb9ae5608")
 	)
 	(label "GND"
-		(at 254.0 205.74 270)
+		(at 254.0 150.74 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11947,7 +11947,7 @@
 		(uuid "353cebaa-31b7-4734-9351-c97c4aefed57")
 	)
 	(label "MIDI_RX"
-		(at 261.62 195.58 180)
+		(at 261.62 140.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11957,7 +11957,7 @@
 		(uuid "86dc548c-1b4f-49f0-9356-7a96061c7b0c")
 	)
 	(label "+3V3"
-		(at 261.62 193.04 0)
+		(at 261.62 138.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11967,7 +11967,7 @@
 		(uuid "5880b582-5f59-4bbb-88c7-3380eb0f0235")
 	)
 	(label "+3V3"
-		(at 254.0 185.42000000000002 90)
+		(at 254.0 130.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11977,7 +11977,7 @@
 		(uuid "b30d5b92-7279-49c9-878e-9dda16ae688f")
 	)
 	(label "MIDI_TX"
-		(at 214.63 171.45 90)
+		(at 214.63 116.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11987,7 +11987,7 @@
 		(uuid "654bbc79-aa4d-48cc-86ff-1182d69ba1f3")
 	)
 	(label "MIDI_TIP"
-		(at 214.63 179.07 180)
+		(at 214.63 124.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11997,7 +11997,7 @@
 		(uuid "445ddf7b-8852-42a1-a999-5e982586aa08")
 	)
 	(label "+3V3"
-		(at 218.44 171.45 90)
+		(at 218.44 116.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12007,7 +12007,7 @@
 		(uuid "bb49d48a-3abf-44c2-9e6c-f7a43ef75820")
 	)
 	(label "MIDI_RING"
-		(at 218.44 179.07 270)
+		(at 218.44 124.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12017,7 +12017,7 @@
 		(uuid "b5b250b2-94c0-476a-b6ef-fab9145e8e51")
 	)
 	(label "MIDI_RX"
-		(at 223.52 171.45 90)
+		(at 223.52 116.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13737,11 +13737,11 @@
 		(uuid "86f06699-1774-4509-b0d0-c7152ea976d4")
 	)
 	(no_connect
-		(at 246.38 190.5)
+		(at 246.38 135.5)
 		(uuid "5de097ed-05e9-4f5d-a339-eee85726bab5")
 	)
 	(no_connect
-		(at 246.38 200.66)
+		(at 246.38 145.66)
 		(uuid "15debd51-6722-4045-9156-9bc7c1420cf2")
 	)
 	(no_connect
@@ -13839,7 +13839,7 @@
 		(uuid "1db35675-5c2b-49cf-91b2-4d306d7f994a")
 	)
 	(label "+3V3"
-		(at 223.52 179.07 90)
+		(at 223.52 124.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13849,7 +13849,7 @@
 		(uuid "a8f0370e-60c8-4b8e-b33b-c7568d66b389")
 	)
 	(label "I2C_SCL"
-		(at 209.54999999999998 49.53 180)
+		(at 209.55 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13870,7 +13870,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 232.0 39.37 0)
+		(at 260.0 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13880,7 +13880,7 @@
 		(dnp no)
 		(uuid "af3023a4-4369-4d61-bb5e-a9b2605153a0")
 		(property "Reference" "J11"
-			(at 232.0 27.94 0)
+			(at 260.0 33.02000000000001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13890,7 +13890,7 @@
 			)
 		)
 		(property "Value" "UI_BOARD"
-			(at 232.0 26.67 0)
+			(at 260.0 31.750000000000007 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13900,7 +13900,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 232.0 39.37 0)
+			(at 260.0 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13911,7 +13911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.0 39.37 0)
+			(at 260.0 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13922,7 +13922,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.0 39.37 0)
+			(at 260.0 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13966,7 +13966,7 @@
 		)
 	)
 	(label "GND"
-		(at 226.92 31.75 180)
+		(at 254.92 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13976,7 +13976,7 @@
 		(uuid "858ee80a-1f99-48c6-8cd4-e9b7c4a18f5c")
 	)
 	(label "+3V3"
-		(at 226.92 34.29 180)
+		(at 254.92 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13986,7 +13986,7 @@
 		(uuid "67e52b98-7a46-4a20-8a31-65c460d555c1")
 	)
 	(label "SPI_MOSI"
-		(at 226.92 36.83 180)
+		(at 254.92 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13996,7 +13996,7 @@
 		(uuid "ad591ed2-234d-4df6-ad02-e245ed17fa42")
 	)
 	(label "SPI_MISO"
-		(at 226.92 39.37 180)
+		(at 254.92 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14006,7 +14006,7 @@
 		(uuid "2c015c90-c2e8-4e64-be95-40cb153adad5")
 	)
 	(label "SPI_SCLK"
-		(at 226.92 41.91 180)
+		(at 254.92 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14016,7 +14016,7 @@
 		(uuid "c4014bbf-c878-4e2a-8afa-872e39f1525b")
 	)
 	(label "SPI_CS"
-		(at 226.92 44.45 180)
+		(at 254.92 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14026,7 +14026,7 @@
 		(uuid "f2bd64b0-5af4-4401-a503-a29288bd7c9d")
 	)
 	(label "SPI_HS"
-		(at 226.92 46.99 180)
+		(at 254.92 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14036,7 +14036,7 @@
 		(uuid "da9fd547-3724-4df7-a723-fead320d34b0")
 	)
 	(label "PICO_RESET"
-		(at 226.92 49.53 270)
+		(at 254.92 54.61 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14086,11 +14086,11 @@
 		(uuid "4b358551-b883-4e11-9aa7-05e6b6d440a6")
 	)
 	(no_connect
-		(at 246.38 190.5)
+		(at 246.38 135.5)
 		(uuid "017286e9-4d1a-4b7c-bad4-d1d98a3c3cbc")
 	)
 	(no_connect
-		(at 246.38 200.66000000000003)
+		(at 246.38 145.66)
 		(uuid "5196789f-da1c-4146-b1be-9f4b3a09c8dc")
 	)
 	(wire
