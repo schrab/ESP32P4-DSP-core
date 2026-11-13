@@ -1,176 +1,19 @@
 {
   "board": "C:\\Users\\schra\\Developer\\JC-ESP32P4-M3-DEV\\ESP32P4\\ESP32P4.kicad_pcb",
-  "timestamp": "2026-11-13T20:13:38",
-  "total_violations": 37,
+  "timestamp": "2026-11-13T20:35:10",
+  "total_violations": 16,
   "violation_counts": {
-    "hole_clearance": 2,
-    "clearance": 2,
-    "shorting_items": 2,
-    "pth_inside_courtyard": 4,
-    "npth_inside_courtyard": 1,
-    "solder_mask_bridge": 4,
     "silk_edge_clearance": 1,
-    "hole_to_hole": 1,
     "lib_footprint_mismatch": 2,
-    "silk_over_copper": 8,
-    "silk_overlap": 10
+    "silk_overlap": 8,
+    "silk_over_copper": 5
   },
   "severity_counts": {
-    "error": 15,
-    "warning": 22,
+    "error": 0,
+    "warning": 16,
     "info": 0
   },
   "violations": [
-    {
-      "type": "hole_clearance",
-      "severity": "error",
-      "message": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 78.5,
-        "y": 65.75,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0741 mm)",
-      "location": {
-        "x": 78.5,
-        "y": 65.75,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_clearance",
-      "severity": "error",
-      "message": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 78.5,
-        "y": 65.75,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0741 mm)",
-      "location": {
-        "x": 78.25,
-        "y": 63.955,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets GND and KEY_BTN)",
-      "location": {
-        "x": 79.32,
-        "y": 64.87,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "shorting_items",
-      "severity": "error",
-      "message": "Items shorting two nets (nets GND and KEY_BTN)",
-      "location": {
-        "x": 79.32,
-        "y": 64.87,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 78.5,
-        "y": 65.75,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 78.5,
-        "y": 70.25,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "npth_inside_courtyard",
-      "severity": "error",
-      "message": "NPTH inside courtyard",
-      "location": {
-        "x": 77.89,
-        "y": 65.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 79.32,
-        "y": 69.05,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "pth_inside_courtyard",
-      "severity": "error",
-      "message": "PTH inside courtyard",
-      "location": {
-        "x": 79.32,
-        "y": 64.87,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 77.89,
-        "y": 65.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Front solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 79.32,
-        "y": 64.87,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 77.89,
-        "y": 65.4,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "solder_mask_bridge",
-      "severity": "error",
-      "message": "Rear solder mask aperture bridges items with different nets",
-      "location": {
-        "x": 79.32,
-        "y": 64.87,
-        "unit": "mm"
-      }
-    },
     {
       "type": "silk_edge_clearance",
       "severity": "warning",
@@ -178,16 +21,6 @@
       "location": {
         "x": 95.0,
         "y": 80.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "hole_to_hole",
-      "severity": "warning",
-      "message": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 77.89,
-        "y": 65.4,
         "unit": "mm"
       }
     },
@@ -208,36 +41,6 @@
       "location": {
         "x": 88.0,
         "y": 10.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 84.0,
-        "y": 64.75,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 19.0,
-        "y": 72.82,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 28.237258,
-        "y": 66.5225,
         "unit": "mm"
       }
     },
@@ -318,26 +121,6 @@
       "location": {
         "x": 45.237258,
         "y": 60.0225,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 19.0,
-        "y": 72.82,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_over_copper",
-      "severity": "warning",
-      "message": "Silkscreen clipped by solder mask",
-      "location": {
-        "x": 27.5,
-        "y": 66.32,
         "unit": "mm"
       }
     },

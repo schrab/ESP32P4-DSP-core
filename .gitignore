@@ -1,0 +1,17 @@
+# KiCad MCP tool auto-backups / editor history
+.mcp-backups/
+.history/
+
+# KiCad temporary / local artifacts
+fp-info-cache
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+\#auto_saved_files\#
+*.lck
