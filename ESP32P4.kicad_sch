@@ -10521,16 +10521,6 @@
 		)
 		(uuid "654bbc79-aa4d-48cc-86ff-1182d69ba1f3")
 	)
-	(label "+3V3"
-		(at 210.82 127.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb49d48a-3abf-44c2-9e6c-f7a43ef75820")
-	)
 	(label "MIDI_RX"
 		(at 269.24 130.42 90)
 		(effects
@@ -12964,16 +12954,6 @@
 		)
 		(uuid "beea7762-a679-487e-8d6a-d41d33ec8f64")
 	)
-	(label "GND"
-		(at 129.54000000000002 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ee567de-a779-4684-8756-cb795d4a727b")
-	)
 	(wire
 		(pts
 			(xy 129.54 160.02) (xy 147.32 160.02)
@@ -12991,16 +12971,6 @@
 		(uuid "6c27ddfd-a24a-4215-a23d-198040c06d4e")
 	)
 	(label "GND"
-		(at 147.32 167.64 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e35b1045-d5c7-48ca-a345-e87c01ab88fb")
-	)
-	(label "GND"
 		(at 144.78 160.02 0)
 		(effects
 			(font
@@ -13009,6 +12979,76 @@
 			(justify left bottom)
 		)
 		(uuid "0a1bdd86-b874-44ff-9775-8617934306ad")
+	)
+	(wire
+		(pts
+			(xy 210.82 135.5) (xy 224.79000000000002 135.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b638347-0aa6-4298-8737-6882419d0827")
+	)
+	(junction
+		(at 210.82 135.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33fea96b-8c59-461b-bba8-0d09327c4538")
+	)
+	(junction
+		(at 224.79 135.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "867a46f8-c49d-4aa9-bad8-e31ae2a6b4af")
+	)
+	(label "+3V3"
+		(at 210.82 127.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e999c7-c7cb-4bf8-86f1-4b70db346ed4")
+	)
+	(wire
+		(pts
+			(xy 114.3 160.02) (xy 119.38000000000001 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7f685e-0864-428f-98b4-e7b83696ea64")
+	)
+	(junction
+		(at 114.3 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272c9f21-b5f9-491a-83dc-9c3f9595d9de")
+	)
+	(junction
+		(at 119.38 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f15b75-d271-41e2-b1fd-1068c9d1a72f")
+	)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b6c327-9da6-45d0-8afb-5ccc15c4eb02")
+	)
+	(junction
+		(at 147.32 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9116720e-b136-4903-80dc-020da0b82084")
 	)
 	(sheet_instances
 		(path "/"
