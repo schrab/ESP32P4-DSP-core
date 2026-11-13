@@ -1,6 +1,6 @@
 {
   "board": "C:\\Users\\schra\\Developer\\JC-ESP32P4-M3-DEV\\ESP32P4\\ESP32P4.kicad_pcb",
-  "timestamp": "2026-11-13T19:38:06",
+  "timestamp": "2026-11-13T20:03:13",
   "total_violations": 18,
   "violation_counts": {
     "silk_edge_clearance": 1,
@@ -59,6 +59,16 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
+        "x": 28.237258,
+        "y": 66.5225,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
         "x": 10.0,
         "y": 22.57,
         "unit": "mm"
@@ -81,16 +91,6 @@
       "location": {
         "x": 49.36,
         "y": 57.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 28.237258,
-        "y": 66.5225,
         "unit": "mm"
       }
     },

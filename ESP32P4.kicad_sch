@@ -10447,96 +10447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
-		(at 80.01 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c181f26e-93c3-41e4-bfa8-fa75481b3c60")
-		(property "Reference" "J5"
-			(at 80.01 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB-A_HOST"
-			(at 80.01 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
-			(at 83.82 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Type A connector"
-			(at 80.01 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98567bc0-d694-460a-ba1a-2ffe581df8d2")
-		)
-		(pin "2"
-			(uuid "c9e0ec4e-d8cd-4f9f-9593-eefde92d5620")
-		)
-		(pin "3"
-			(uuid "4b1aa61b-e9be-4e52-bb0c-13ea510c6ae0")
-		)
-		(pin "4"
-			(uuid "e79b98c8-04b9-4676-8c1c-56b6c311a3ff")
-		)
-		(pin "SH"
-			(uuid "338fc920-9dc3-4cb3-858c-4c3d7b75c98f")
-		)
-		(instances
-			(project "ESP32P4"
-				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 35.56 119.38 0)
 		(unit 1)
@@ -10783,56 +10693,6 @@
 			(justify left bottom)
 		)
 		(uuid "b9a777bb-dc4e-451f-893d-261c6392e1dd")
-	)
-	(label "+5V"
-		(at 87.63 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98215e92-2033-4eeb-bb57-bb1d48ec6f3c")
-	)
-	(label "USBH_DM"
-		(at 87.63 92.71000000000001 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be961b77-888c-43a2-a1a6-c92bef4acdcb")
-	)
-	(label "USBH_DP"
-		(at 87.63 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e35dbb02-ccd3-4336-bd18-18926aef4d97")
-	)
-	(label "GND"
-		(at 80.01 100.33 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ada6cead-39fb-4047-939e-34d68e692ded")
-	)
-	(label "GND"
-		(at 77.47 100.33 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c8a62246-f8db-4c49-a0c1-429675f0945f")
 	)
 	(label "CC1"
 		(at 35.56 115.57000000000001 0)
@@ -11358,286 +11218,6 @@
 	(no_connect
 		(at 209.55 44.45)
 		(uuid "42ea54e0-f33d-43ae-a1b4-e21d316b3d23")
-	)
-	(label "ENC1_SW"
-		(at 209.55 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "086ca2ad-9ae4-4289-befb-8d66a7395fd5")
-	)
-	(label "ENC2_A"
-		(at 209.55 92.71000000000001 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c435cb7d-3889-4376-a48b-5e7e0b901f8b")
-	)
-	(label "ENC2_B"
-		(at 209.55 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2969f855-7c71-48ca-9369-ea41d465b039")
-	)
-	(label "ENC2_SW"
-		(at 209.55 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54a8f17e-ef0f-48aa-aac3-2a63661eb9a8")
-	)
-	(label "BTN1"
-		(at 209.55 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "acf81b63-01b2-4b22-af9f-3fe7fb41ced0")
-	)
-	(label "MIDI_TX"
-		(at 209.55 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51c46052-bd35-4918-a547-9b54786264a5")
-	)
-	(label "MIDI_RX"
-		(at 209.55 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1c0e4b4-9fc6-479f-bd31-cf206757d20a")
-	)
-	(label "GND"
-		(at 209.55 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd49011e-a423-45a5-b04f-c3fca98a2b53")
-	)
-	(label "ENC1_A"
-		(at 209.55 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9137fea0-68d9-4a94-b8be-70d212bf44a7")
-	)
-	(label "ENC1_B"
-		(at 209.55 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "984a4f4a-eb2d-426c-a6e7-1f8595ca8f3a")
-	)
-	(label "BTN2"
-		(at 209.55 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d4aa60a-b8db-4065-b8d3-3565ea3a78f5")
-	)
-	(label "BTN3"
-		(at 209.55 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd9af549-c722-45cc-a45d-c0bfdb2eb465")
-	)
-	(label "OLED_CS"
-		(at 209.55 115.57000000000001 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51911aae-a085-4d3e-9e7b-b37ab871075d")
-	)
-	(label "OLED_SCK"
-		(at 209.55 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8754ed4-b516-47ab-979c-a28c668be379")
-	)
-	(label "OLED_SDA"
-		(at 209.55 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58d4d817-87d5-4cf0-96ae-a9baf3ee41ed")
-	)
-	(label "SPI_MISO"
-		(at 255.27 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62300539-bf26-4c3f-8c1d-79e8a9680dc3")
-	)
-	(label "SPI_CS"
-		(at 255.27 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00fb2e4c-9e79-4ea6-92d8-33b74430d066")
-	)
-	(label "GND"
-		(at 255.27 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "edb71f0e-d758-4237-8ffe-ec47ddb2b8ba")
-	)
-	(label "SPI_SCLK"
-		(at 255.27 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c64bbb2a-a9d0-47f7-93a9-f429852e1f0e")
-	)
-	(label "SPI_MOSI"
-		(at 255.27 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b3545e9-90ed-4bbe-b4e3-2fdeb5658c63")
-	)
-	(label "OLED_DC"
-		(at 255.27 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f024f23-5235-4018-9dbc-d3a57e9be792")
-	)
-	(label "OLED_RES"
-		(at 255.27 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90856f9d-e17e-4696-ad01-bf1d3266f54a")
-	)
-	(label "GND"
-		(at 255.27 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1a78887-b89b-421b-9e25-b4c37a257e69")
-	)
-	(label "SPI_HS"
-		(at 255.27 92.71000000000001 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3bf44258-0633-48d3-b0e8-88ca7b07ea54")
-	)
-	(label "PICO_RESET"
-		(at 255.27 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8f73a4e-389f-4e10-9c1c-df117341467f")
-	)
-	(label "BTN4"
-		(at 255.27 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2559589-0cdf-4c71-8cba-757f163b392c")
-	)
-	(label "GND"
-		(at 255.27 115.57000000000001 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44f9406f-c76b-427e-b2f8-bbc0f24a1edd")
-	)
-	(label "+5V"
-		(at 255.27 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3cd1050-006d-47ed-bc16-4a49b428be18")
 	)
 	(label "SPI_CS"
 		(at 87.63 76.2 180)
@@ -12276,236 +11856,6 @@
 			)
 		)
 	)
-	(label "ENC1_A"
-		(at 224.79 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04482ea6-ce00-4f66-adf3-fb081883da01")
-	)
-	(label "ENC1_B"
-		(at 224.79 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a2a3d32-7c60-465a-a603-d8313652a576")
-	)
-	(label "GND"
-		(at 224.79 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13b48cd3-861f-48ef-9c5a-8087302e0caa")
-	)
-	(label "ENC1_SW"
-		(at 240.03 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba2dbdfd-d3de-474e-92c4-7677a658ee63")
-	)
-	(label "GND"
-		(at 240.03 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "deb27abb-2884-46d8-a266-611724ca3a27")
-	)
-	(label "ENC2_A"
-		(at 237.49 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe02564f-66bb-403c-8e1b-1b9db3c858d8")
-	)
-	(label "ENC2_B"
-		(at 237.49 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ec8d944-d92a-4f53-b3c6-5ab87ec544b1")
-	)
-	(label "GND"
-		(at 237.49 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "349cd7fd-9441-4fd8-9849-cccf1d111e79")
-	)
-	(label "ENC2_SW"
-		(at 252.73 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c044587a-e228-44bd-b48b-4180063e130a")
-	)
-	(label "GND"
-		(at 252.73 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f573f93-9ee0-4b65-a29d-1bfec1b393f1")
-	)
-	(label "BTN1"
-		(at 190.5 185.42000000000002 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c21d45a3-c974-402b-a1ae-c1e268d1be5c")
-	)
-	(label "GND"
-		(at 200.66 185.42000000000002 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c19c939-03a8-4dad-b62c-f1b9f795282f")
-	)
-	(label "BTN2"
-		(at 207.01 185.42000000000002 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0569f8b5-a029-4306-97da-a721cb5f1dc5")
-	)
-	(label "BTN3"
-		(at 223.52 185.42000000000002 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34acd04f-ddbf-4cfb-be0f-aa8f6bf9dd29")
-	)
-	(label "GND"
-		(at 233.68 185.42000000000002 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b144046-b374-4ea2-ad67-d55e647f9185")
-	)
-	(label "GND"
-		(at 245.11 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ac9e9cb-cd08-483a-8295-aff83a109512")
-	)
-	(label "GND"
-		(at 204.47 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e44a9f9d-ae22-4675-b750-6e7f3ef14db7")
-	)
-	(label "+3V3"
-		(at 204.47 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8cd36bd1-296a-4bdd-a8b0-bfdc98ff9a06")
-	)
-	(label "OLED_SCK"
-		(at 204.47 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c828044f-acb8-4044-8153-4953d979e87d")
-	)
-	(label "OLED_SDA"
-		(at 204.47 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5497c069-b096-4856-af65-5f6d4e68529f")
-	)
-	(label "OLED_RES"
-		(at 204.47 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f31a422-c7ce-4a43-a8c1-48f6126a5fbf")
-	)
-	(label "OLED_DC"
-		(at 204.47 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc363a48-0aba-4a48-ba53-02b83e2e47da")
-	)
-	(label "OLED_CS"
-		(at 204.47 167.64000000000001 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d9ccdf8-3283-4761-b2c2-0a82a6ecc938")
-	)
 	(label "MIDI_RING"
 		(at 224.79 190.5 270)
 		(effects
@@ -12675,26 +12025,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8fbe182-1f76-49e9-899d-d66f67fc5712")
-	)
-	(label "GND"
-		(at 217.17000000000002 185.42000000000002 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02f9d851-fa09-4749-b54e-05d5610d0af5")
-	)
-	(label "BTN4"
-		(at 234.95000000000002 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23486b93-7f0c-4fd1-bc00-563d03fe02fd")
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card")
@@ -14422,36 +13752,6 @@
 		(at 59.69 105.41)
 		(uuid "2dab81ac-8499-4081-b6b9-3f0348af5461")
 	)
-	(label "GND"
-		(at 209.55 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a6bd94c-a0a0-4db8-8057-ebec9f9e2407")
-	)
-	(label "GND"
-		(at 209.55 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "504fe9c9-b8a9-4c00-9c50-b35b617e1745")
-	)
-	(label "GND"
-		(at 209.55 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf1c22b1-30ed-456b-8b75-cd147361d147")
-	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 118.0 30.48 0)
@@ -14812,6 +14112,260 @@
 			(justify left bottom)
 		)
 		(uuid "48ef9051-3150-48b1-a95a-70a0432ae432")
+	)
+	(wire
+		(pts
+			(xy 25.0 138.0) (xy 25.0 140.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc86fe83-b47d-4a74-bd75-a824a3cc6e26")
+	)
+	(label "BATP"
+		(at 25.0 140.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07dfa8bf-90d9-4d55-a400-30cb3fb2c8d8")
+	)
+	(wire
+		(pts
+			(xy 30.0 138.0) (xy 30.0 140.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04dc761a-0785-436a-909a-c7497bd79f69")
+	)
+	(label "GND"
+		(at 30.0 140.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "913d08a5-334d-4744-8e21-8a9e5b21781c")
+	)
+	(wire
+		(pts
+			(xy 118.0 30.48) (xy 118.0 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319a426f-baa4-4d1c-8275-fed0eac442e5")
+	)
+	(label "SD_PWR"
+		(at 118.0 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "845a5e0a-b3aa-4699-ae71-bcbac55d68e1")
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 80.01 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84c9bc8b-6234-4bd2-8875-949af540dbc3")
+		(property "Reference" "J5"
+			(at 80.01 112.395 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C_HOST"
+			(at 80.01 109.855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 83.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 83.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 80.01 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1"
+			(uuid "6cf8e6de-7d82-4985-858a-d5af652d697b")
+		)
+		(pin "A12"
+			(uuid "95ceb3ae-cc35-4eaa-8dc2-a265acb9b5db")
+		)
+		(pin "A4"
+			(uuid "3cafc5cd-7bd4-4218-9c79-25f892da2f26")
+		)
+		(pin "A5"
+			(uuid "e52f20f2-c0d5-4062-acad-83c79f2d8632")
+		)
+		(pin "A6"
+			(uuid "27add9cb-82aa-4915-ac6b-83c48d4121d4")
+		)
+		(pin "A7"
+			(uuid "412d2caf-0b1b-4ed6-acf2-bdf45108dc49")
+		)
+		(pin "A8"
+			(uuid "14fc6c8c-d9d9-4b28-8062-435bc9bb2182")
+		)
+		(pin "A9"
+			(uuid "8693d3e2-02f7-4624-9bc1-fff87f844277")
+		)
+		(pin "B1"
+			(uuid "2f7055f3-9792-468f-bb00-cf5b6d7107f7")
+		)
+		(pin "B12"
+			(uuid "296e86e0-94dc-4fb4-85f2-9951e59293ee")
+		)
+		(pin "B4"
+			(uuid "acb73e56-19ce-4598-88a4-4330a7514372")
+		)
+		(pin "B5"
+			(uuid "061fca9d-0702-4464-8b8b-93475172ba16")
+		)
+		(pin "B6"
+			(uuid "cbc4dfd9-d552-4b60-b6b2-0487e9264e5a")
+		)
+		(pin "B7"
+			(uuid "1e470fb9-5530-4086-81bc-15510d84ef9b")
+		)
+		(pin "B8"
+			(uuid "64baa46e-0b02-4671-a97b-9876ce6e5eaa")
+		)
+		(pin "B9"
+			(uuid "60d83906-5600-4024-a9c6-b95c4f90247c")
+		)
+		(pin "SH"
+			(uuid "57f396fb-1971-49fc-957b-0827f65ef089")
+		)
+		(instances
+			(project "ESP32P4"
+				(path "/c5758cbd-0b0e-4925-997e-13a9cd3607e0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "+5V"
+		(at 95.25 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "485959f5-8258-46fd-a236-36558c573213")
+	)
+	(label "GND"
+		(at 80.01 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34e56363-bee1-46c4-9787-e25e86b382e4")
+	)
+	(label "GND"
+		(at 72.39 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f4e57f0-7bcf-4e4c-b414-2f7e3cab95b8")
+	)
+	(label "USBH_DP"
+		(at 95.25 92.71000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d06520d-57ab-49ee-b36b-59de973be8de")
+	)
+	(label "USBH_DP"
+		(at 95.25 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb106540-c68e-4a58-9cca-5d4409f2737f")
+	)
+	(label "USBH_DM"
+		(at 95.25 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b6e5748-559b-4f37-b05b-fc26c45c552d")
+	)
+	(label "USBH_DM"
+		(at 95.25 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5064b0c-1ff6-4177-af29-c37118c1d0a0")
 	)
 	(sheet_instances
 		(path "/"
