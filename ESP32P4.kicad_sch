@@ -12956,13 +12956,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8f461ae0-0c3b-4188-823a-be6cb80e68f0")
+		(uuid "e5d21117-ff4d-43b9-8d43-ac72bdabd653")
 	)
 	(junction
 		(at 106.68 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c50b8f26-efc3-4dcb-aeb3-79202ca360ec")
+		(uuid "e5f40ec3-8793-44cd-bc89-476afcc8e43f")
 	)
 	(wire
 		(pts
@@ -12972,7 +12972,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "28ffd884-8740-40d5-9040-06ba4a0fa62b")
+		(uuid "5c4c9559-0a23-4fae-875d-37ca62eec089")
 	)
 	(sheet_instances
 		(path "/"
