@@ -11478,7 +11478,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 156.21 0)
+		(at 129.54 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11488,7 +11488,7 @@
 		(dnp no)
 		(uuid "7198c24d-f002-4002-9beb-a38b1c57243a")
 		(property "Reference" "R4"
-			(at 143.51000000000002 156.21 0)
+			(at 138.43 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11498,7 +11498,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 143.51000000000002 157.48000000000002 0)
+			(at 138.43 157.48000000000002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11508,7 +11508,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.842 156.21 90)
+			(at 127.762 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +11519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 156.21 0)
+			(at 129.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11530,7 +11530,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 156.21 0)
+			(at 129.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11714,26 +11714,6 @@
 				)
 			)
 		)
-	)
-	(label "NRST"
-		(at 134.62 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21ab01a5-a48c-4b14-a645-f3ca42c80b56")
-	)
-	(label "+3V3"
-		(at 134.62 160.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72ab281c-e6d1-4cf2-9a6b-d351dbc4e53c")
 	)
 	(label "GPIO36"
 		(at 154.94 146.05 90)
@@ -12836,16 +12816,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 135.5) (xy 224.79000000000002 135.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d900875-d3fe-4961-b0cc-6dd1b026f151")
-	)
-	(wire
-		(pts
 			(xy 237.49 138.04) (xy 241.3 138.04)
 		)
 		(stroke
@@ -12934,22 +12904,6 @@
 		)
 		(uuid "beea7762-a679-487e-8d6a-d41d33ec8f64")
 	)
-	(wire
-		(pts
-			(xy 134.62 160.02) (xy 147.32 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd96c9d5-fc7f-43aa-bc09-82649e14b929")
-	)
-	(junction
-		(at 134.62 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c27ddfd-a24a-4215-a23d-198040c06d4e")
-	)
 	(label "GND"
 		(at 144.78 160.02 0)
 		(effects
@@ -12959,64 +12913,6 @@
 			(justify left bottom)
 		)
 		(uuid "0a1bdd86-b874-44ff-9775-8617934306ad")
-	)
-	(wire
-		(pts
-			(xy 207.01 135.5) (xy 224.79000000000002 135.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b638347-0aa6-4298-8737-6882419d0827")
-	)
-	(junction
-		(at 207.01 135.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33fea96b-8c59-461b-bba8-0d09327c4538")
-	)
-	(junction
-		(at 224.79 135.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867a46f8-c49d-4aa9-bad8-e31ae2a6b4af")
-	)
-	(label "+3V3"
-		(at 207.01 127.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2e999c7-c7cb-4bf8-86f1-4b70db346ed4")
-	)
-	(wire
-		(pts
-			(xy 134.62 160.02) (xy 147.32 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b6c327-9da6-45d0-8afb-5ccc15c4eb02")
-	)
-	(junction
-		(at 147.32 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9116720e-b136-4903-80dc-020da0b82084")
-	)
-	(wire
-		(pts
-			(xy 207.01 135.5) (xy 224.79000000000002 135.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a708f06-12e9-47c6-a346-29a35037fe1e")
 	)
 	(label "+3V3"
 		(at 207.01 127.88 90)
@@ -13048,6 +12944,62 @@
 		)
 		(uuid "588fcc2a-b6d2-4ade-9cfa-abea8dec325d")
 	)
+	(wire
+		(pts
+			(xy 207.01 135.5) (xy 224.79000000000002 135.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b58a941-0b79-4630-8612-14f3d66d48b9")
+	)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e2c9ff-7e6e-4d7e-8a65-d34b01e04d91")
+	)
+	(junction
+		(at 129.54 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715e0696-c9af-4cd4-ac6a-0320d7246d98")
+	)
+	(label "NRST"
+		(at 132.08 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c43f0786-86c0-4259-9ede-e00bd0b533a7")
+	)
+	(label "+3V3"
+		(at 129.54 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c2fd5c-84f0-4bf1-b665-0d4b0d5de34f")
+	)
+	(label "GND"
+		(at 129.54000000000002 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b128f143-df98-4b3d-8e04-36f67361c2ce")
+	)
 	(label "+3V3"
 		(at 114.3 152.4 90)
 		(effects
@@ -13056,47 +13008,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "21b58c25-61c3-49fc-ab8b-ac3be0337184")
-	)
-	(label "GND"
-		(at 134.62 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d288ea99-912d-49e2-b51c-ae09a3bc017c")
-	)
-	(wire
-		(pts
-			(xy 134.62 160.02) (xy 147.32 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16eb4fbd-9617-46ed-acf8-ab88f086d34a")
-	)
-	(label "NRST"
-		(at 138.43 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4dec404-e587-4a99-a7d9-d40df81d82e8")
+		(uuid "2042beb7-6c9d-49e6-8e2c-b5499daaf6ef")
 	)
 	(label "+3V3"
-		(at 134.62 152.4 90)
+		(at 207.01 127.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a7a25aac-6cb0-488e-a0e3-e82f94a7fd3c")
+		(uuid "450d61af-5a99-4508-a744-f9744c4335f2")
 	)
 	(sheet_instances
 		(path "/"
