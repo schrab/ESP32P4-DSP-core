@@ -11478,7 +11478,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 156.21 0)
+		(at 132.08 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11488,7 +11488,7 @@
 		(dnp no)
 		(uuid "7198c24d-f002-4002-9beb-a38b1c57243a")
 		(property "Reference" "R4"
-			(at 138.43 156.21 0)
+			(at 140.97000000000003 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11498,7 +11498,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 138.43 157.48000000000002 0)
+			(at 140.97000000000003 157.48000000000002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11508,7 +11508,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127.762 156.21 90)
+			(at 130.30200000000002 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +11519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 156.21 0)
+			(at 132.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11530,7 +11530,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 156.21 0)
+			(at 132.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,16 +12914,6 @@
 		)
 		(uuid "0a1bdd86-b874-44ff-9775-8617934306ad")
 	)
-	(label "+3V3"
-		(at 207.01 127.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91c92d60-ea1c-4744-95c3-a9365d12ceb5")
-	)
 	(wire
 		(pts
 			(xy 114.3 160.02) (xy 119.38000000000001 160.02)
@@ -12956,7 +12946,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 160.02) (xy 147.32 160.02)
+			(xy 132.08 160.02) (xy 147.32 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12965,12 +12955,12 @@
 		(uuid "e3e2c9ff-7e6e-4d7e-8a65-d34b01e04d91")
 	)
 	(junction
-		(at 129.54 160.02)
+		(at 132.08 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "715e0696-c9af-4cd4-ac6a-0320d7246d98")
 	)
-	(label "NRST"
+	(label "GND"
 		(at 132.08 160.02 0)
 		(effects
 			(font
@@ -12978,37 +12968,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c43f0786-86c0-4259-9ede-e00bd0b533a7")
-	)
-	(label "+3V3"
-		(at 129.54 152.4 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7c2fd5c-84f0-4bf1-b665-0d4b0d5de34f")
-	)
-	(label "GND"
-		(at 129.54000000000002 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "b128f143-df98-4b3d-8e04-36f67361c2ce")
-	)
-	(label "+3V3"
-		(at 114.3 152.4 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2042beb7-6c9d-49e6-8e2c-b5499daaf6ef")
 	)
 	(label "+3V3"
 		(at 207.01 127.88 90)
@@ -13020,10 +12980,76 @@
 		)
 		(uuid "450d61af-5a99-4508-a744-f9744c4335f2")
 	)
+	(wire
+		(pts
+			(xy 132.08 160.02) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9830c6f9-7850-4a1f-887b-c3f1f4f97f71")
+	)
+	(junction
+		(at 147.32 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4afd8417-94dc-41c5-a864-7e73020da5ee")
+	)
+	(label "NRST"
+		(at 133.35 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "853fd9a4-77d1-4ee7-8ed3-0bd4826089e8")
+	)
+	(label "+3V3"
+		(at 132.08 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c90dcdd2-dc2e-4fb4-aac3-2bbf4ad14992")
+	)
+	(label "+3V3"
+		(at 114.3 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ad72fa-cae3-4ff3-879e-c83b7e0af2ff")
+	)
+	(label "+3V3"
+		(at 207.01 127.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fb9c058-e2e5-4636-8887-b12e66322bf8")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 132.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cc6352-f147-499d-afc4-91a3e3744f48")
+	)
 )
