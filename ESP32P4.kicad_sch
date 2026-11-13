@@ -14175,7 +14175,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 80.01 90.17 0)
+		(at 25.0 40.0 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14185,7 +14185,7 @@
 		(dnp no)
 		(uuid "84c9bc8b-6234-4bd2-8875-949af540dbc3")
 		(property "Reference" "J5"
-			(at 80.01 112.395 0)
+			(at 25.0 62.224999999999994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14195,7 +14195,7 @@
 			)
 		)
 		(property "Value" "USB-C_HOST"
-			(at 80.01 109.855 0)
+			(at 25.0 59.685 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14205,7 +14205,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 83.82 90.17 0)
+			(at 28.809999999999988 40.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14216,7 +14216,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 83.82 90.17 0)
+			(at 28.809999999999988 40.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14227,7 +14227,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 80.01 90.17 0)
+			(at 25.0 40.0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14298,7 +14298,7 @@
 		)
 	)
 	(label "+5V"
-		(at 95.25 74.93 0)
+		(at 40.24 24.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14308,7 +14308,7 @@
 		(uuid "485959f5-8258-46fd-a236-36558c573213")
 	)
 	(label "GND"
-		(at 80.01 113.03 270)
+		(at 25.0 62.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14318,7 +14318,7 @@
 		(uuid "34e56363-bee1-46c4-9787-e25e86b382e4")
 	)
 	(label "GND"
-		(at 72.39 113.03 270)
+		(at 17.38 62.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14328,7 +14328,7 @@
 		(uuid "8f4e57f0-7bcf-4e4c-b414-2f7e3cab95b8")
 	)
 	(label "USBH_DP"
-		(at 95.25 92.71000000000001 0)
+		(at 40.24 42.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14338,7 +14338,7 @@
 		(uuid "1d06520d-57ab-49ee-b36b-59de973be8de")
 	)
 	(label "USBH_DP"
-		(at 95.25 95.25 0)
+		(at 40.24 45.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14348,7 +14348,7 @@
 		(uuid "eb106540-c68e-4a58-9cca-5d4409f2737f")
 	)
 	(label "USBH_DM"
-		(at 95.25 87.63 0)
+		(at 40.24 37.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14358,7 +14358,7 @@
 		(uuid "4b6e5748-559b-4f37-b05b-fc26c45c552d")
 	)
 	(label "USBH_DM"
-		(at 95.25 90.17 0)
+		(at 40.24 40.0 0)
 		(effects
 			(font
 				(size 1.27 1.27)
